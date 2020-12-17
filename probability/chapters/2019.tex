@@ -1,0 +1,40 @@
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+%
+%
+\item  If two events A and B,in a random experiment, 
+$\pr{A|B}=\frac{4}{5}$ and $\pr{B|A}=\frac{1}{4}$, then find 
+$\pr{A|A+B}$.
+\\
+\solution  From the given information,
+\begin{align}
+\frac{\pr{AB}}{\pr{B}}&=\frac{4}{5},\\
+\frac{\pr{AB}}{\pr{A}}&=\frac{1}{4}\\
+\implies \frac{\pr{A}}{\pr{B}}=\frac{5}{16}
+\end{align}
+$\because$
+\begin{align}
+\pr{A+B} & =\pr{A}+\pr{B}-\pr{AB}\\
+    & =\pr{A}+\frac{5\pr{A}}{16}-\frac{\pr{A}}{4}\\
+\implies  \pr{A+B}&=\frac{17\pr{A}}{16}
+\end{align}
+Also
+\begin{align}
+ \pr{A|A+B}&=\frac{\pr{A\brak{A+B}}}{\pr{A+B}}
+\end{align}
+Using Boolean algebra,
+\begin{align}
+A\brak{A+B} = A + AB = A\brak{1+B} = A
+\end{align}
+Thus, 
+\begin{align}
+ \pr{A|A+B}&=\frac{\pr{A}}{\pr{A+B}}
+          =\frac{\pr{A}}{17\pr{A}/16}\\
+          &=\frac{16}{17}\
+\end{align}
+
+\end{enumerate}
