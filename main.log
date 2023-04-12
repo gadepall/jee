@@ -1,0 +1,4387 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.1.3)  12 APR 2023 13:16
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03>
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@chapter=\count178
+\c@section=\count179
+\c@subsection=\count180
+\c@subsubsection=\count181
+\c@paragraph=\count182
+\c@subparagraph=\count183
+\c@figure=\count184
+\c@table=\count185
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (./gvv.sty
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-01-09 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count186
+\l__pdf_internal_box=\box47
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box48
+\UL@hyphenbox=\box49
+\UL@skip=\skip49
+\UL@hook=\toks15
+\UL@height=\dimen139
+\UL@pe=\count187
+\UL@pixel=\dimen140
+\ULC@box=\box50
+Package: ulem 2019/11/18
+\ULdepth=\dimen141
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count188
+\rotFPtop=\skip50
+\rotFPbot=\skip51
+\rot@float@box=\box51
+\rot@mess@toks=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2020/06/11 v0.70 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+)
+\XKV@depth=\count189
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count190
+\pstFP@xia=\count191
+\pstFP@xib=\count192
+\pstFP@xfa=\count193
+\pstFP@xfb=\count194
+\pstFP@rega=\count195
+\pstFP@regb=\count196
+\pstFP@regs=\count197
+\pstFP@times=\count198
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks20
+\pgfutil@tempdima=\dimen144
+\pgfutil@tempdimb=\dimen145
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks23
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Loading pgffor.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgf@x=\dimen146
+\pgf@xa=\dimen147
+\pgf@xb=\dimen148
+\pgf@xc=\dimen149
+\pgf@y=\dimen150
+\pgf@ya=\dimen151
+\pgf@yb=\dimen152
+\pgf@yc=\dimen153
+\c@pgf@counta=\count199
+\c@pgf@countb=\count266
+\c@pgf@countc=\count267
+\c@pgf@countd=\count268
+\pgfutil@tempcnta=\count269
+\pgfutil@tempcntb=\count270
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen154
+\pgfmath@count=\count271
+\pgfmath@box=\box52
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count272
+))
+\pgffor@iter=\dimen155
+\pgffor@skip=\dimen156
+\pgffor@stack=\toks27
+\pgffor@toks=\toks28
+)
+\psLoopIndex=\count273
+
+`PSTricks' v3.01  <2020/09/18> (tvz,hv)
+\pst@dima=\dimen157
+\pst@dimb=\dimen158
+\pst@dimc=\dimen159
+\pst@dimd=\dimen160
+\pst@dimg=\dimen161
+\pst@dimh=\dimen162
+\pst@dimm=\dimen163
+\pst@dimn=\dimen164
+\pst@dimo=\dimen165
+\pst@dimp=\dimen166
+\pst@hbox=\box53
+\pst@ibox=\box54
+\pst@boxg=\box55
+\pst@cnta=\count274
+\pst@cntb=\count275
+\pst@cntc=\count276
+\pst@cntd=\count277
+\pst@cntg=\count278
+\pst@cnth=\count279
+\pst@cntm=\count280
+\pst@cntn=\count281
+\pst@cnto=\count282
+\pst@cntp=\count283
+\@zero=\count284
+\pst@toks=\toks29
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen167
+\psxunit=\dimen168
+\psyunit=\dimen169
+\pst@C@@rType=\count285
+\pslinewidth=\dimen170
+\psk@startLW=\dimen171
+\psk@endLW=\dimen172
+\pst@customdefs=\toks30
+\pslinearc=\dimen173
+\pst@symbolStep=\dimen174
+\pst@symbolWidth=\dimen175
+\pst@symbolLinewidth=\dimen176
+\everypsbox=\toks31
+\psframesep=\dimen177
+\pslabelsep=\dimen178
+\sh@wgridXunit=\dimen179
+\sh@wgridYunit=\dimen180
+\pst@shift=\dimen181
+)
+File: pstricks.tex 2020/09/18 v3.01 `PSTricks' (tvz,hv)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+File: pst-fp.tex 2020/09/18 v3.01 `PST-fp' (hv)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen182
+\WF@size=\dimen183
+\c@WF@wrappedlines=\count286
+\WF@box=\box56
+\WF@everypar=\toks32
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstcol.sty
+Package: pstcol 2007/04/11 v1.3 LaTeX wrapper for `PSTricks' (RN,HV)
+
+
+Package pstcol Warning: ************************************ 
+(pstcol)                The package `pstcol' is obsolet! 
+(pstcol)                You should use `pstricks' directly: 
+(pstcol)                    \usepackage{pstricks}
+(pstcol)                ************************************.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/pst-grad/pst-grad.sty
+Package: pst-grad 2004/07/15 package wrapper for pst-grad.tex (hv)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pst-grad/pst-grad.tex
+`pst-grad' v1.06, 2006/11/27 (tvz,dg,hv))
+File: pst-grad.tex 2006/11/27 1.06 `pst-grad' (tvz)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip52
+\enit@outerparindent=\dimen184
+\enit@toks=\toks33
+\enit@inbox=\box57
+\enit@count@id=\count287
+\enitdp@description=\count288
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count289
+\lst@gtempboxa=\box58
+\lst@token=\toks34
+\lst@length=\count290
+\lst@currlwidth=\dimen185
+\lst@column=\count291
+\lst@pos=\count292
+\lst@lostspace=\dimen186
+\lst@width=\dimen187
+\lst@newlines=\count293
+\lst@lineno=\count294
+\lst@maxwidth=\dimen188
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count295
+\lst@skipnumbers=\count296
+\lst@framebox=\box59
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen189
+\ar@mcellbox=\box60
+\extrarowheight=\dimen190
+\NC@list=\toks35
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box61
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip55
+\LTright=\skip56
+\LTpre=\skip57
+\LTpost=\skip58
+\LTchunksize=\count297
+\LTcapwidth=\dimen191
+\LT@head=\box62
+\LT@firsthead=\box63
+\LT@foot=\box64
+\LT@lastfoot=\box65
+\LT@cols=\count298
+\LT@rows=\count299
+\c@LT@tables=\count300
+\c@LT@chunks=\count301
+\LT@p@ftn=\toks36
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count302
+\calc@Bcount=\count303
+\calc@Adimen=\dimen192
+\calc@Bdimen=\dimen193
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count304
+\calc@Cskip=\skip61
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
+\multirow@colwidth=\skip62
+\multirow@cntb=\count305
+\multirow@dima=\skip63
+\bigstrutjot=\dimen194
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen195
+\TX@old@table=\dimen196
+\TX@old@col=\dimen197
+\TX@target=\dimen198
+\TX@delta=\dimen199
+\TX@cols=\count306
+\TX@ftn=\toks37
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count307
+\mult@box=\box66
+\multicol@leftmargin=\dimen256
+\c@unbalance=\count308
+\c@collectmore=\count309
+\doublecol@number=\count310
+\multicoltolerance=\count311
+\multicolpretolerance=\count312
+\full@width=\dimen257
+\page@free=\dimen258
+\premulticols=\dimen259
+\postmulticols=\dimen260
+\multicolsep=\skip64
+\multicolbaselineskip=\skip65
+\partial@page=\box67
+\last@line=\box68
+\maxbalancingoverflow=\dimen261
+\mult@rightbox=\box69
+\mult@grightbox=\box70
+\mult@gfirstbox=\box71
+\mult@firstbox=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\c@minrows=\count313
+\c@columnbadness=\count314
+\c@finalcolumnbadness=\count315
+\last@try=\dimen262
+\multicolovershoot=\dimen263
+\multicolundershoot=\dimen264
+\mult@nat@firstbox=\box110
+\colbreak@box=\box111
+\mc@col@check@num=\count316
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip66
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks38
+\ex@=\dimen265
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+LaTeX Info: Redefining \boldsymbol on input line 28.
+\pmbraise@=\dimen266
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count317
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count318
+\leftroot@=\count319
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count320
+\DOTSCASE@=\count321
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box112
+\strutbox@=\box113
+\big@size=\dimen267
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count322
+\c@MaxMatrixCols=\count323
+\dotsspace@=\muskip16
+\c@parentequation=\count324
+\dspbrk@lvl=\count325
+\tag@help=\toks39
+\row@=\count326
+\column@=\count327
+\maxfields@=\count328
+\andhelp@=\toks40
+\eqnshift@=\dimen268
+\alignsep@=\dimen269
+\tagshift@=\dimen270
+\tagwidth@=\dimen271
+\totwidth@=\dimen272
+\lineht@=\dimen273
+\@envbody=\toks41
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks42
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count329
+\float@exts=\toks43
+\float@box=\box114
+\@float@everytoks=\toks44
+\@floatcapt=\box115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/boites/boites.sty
+File: boites.sty 
+Package: boites 2013/11/21 v1.1 Colored, framed and breakable across pages boxe
+s
+\bk@bxb=\box116
+\bk@bxa=\box117
+\bk@lcnt=\count330
+)
+(/usr/share/texlive/texmf-dist/tex/latex/boites/boites_exemples.sty
+File: boites_exemples.sty 
+Package: boites_exemples 
+\bk@hauteurcourrante=\dimen274
+\bk@hauteursuivante=\dimen275
+\bk@tempdim=\dimen276
+\bk@fboxsep=\skip69
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count331
+\l_MT_multwidth_dim=\dimen277
+\origjot=\skip70
+\l_MT_shortvdotswithinadjustabove_dim=\dimen278
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen279
+\l_MT_above_intertext_sep=\dimen280
+\l_MT_below_intertext_sep=\dimen281
+\l_MT_above_shortintertext_sep=\dimen282
+\l_MT_below_shortintertext_sep=\dimen283
+\xmathstrut@box=\box118
+\xmathstrut@dim=\dimen284
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup8
+\symAMSb=\mathgroup9
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks45
+\thm@bodyfont=\toks46
+\thm@headfont=\toks47
+\thm@notefont=\toks48
+\thm@headpunct=\toks49
+\thm@preskip=\skip71
+\thm@postskip=\skip72
+\thm@headsep=\skip73
+\dth@everypar=\toks50
+)
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup10
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks51
+\verbatim@line=\toks52
+\verbatim@in@stream=\read2
+)
+(/usr/share/texlive/texmf-dist/tex/latex/moreverb/moreverb.sty
+Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
+\tab@position=\count332
+\tab@size=\count333
+\listing@line=\count334
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen285
+\Hy@linkcounter=\count335
+\Hy@pagecounter=\count336
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count337
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count338
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen286
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count339
+\Field@Width=\dimen287
+\Fld@charsize=\dimen288
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count340
+\c@Item=\count341
+\c@Hfootnote=\count342
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count343
+\c@bookmark@seq@number=\count344
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip74
+)
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 51.
+
+(/usr/share/texlive/texmf-dist/tex/latex/breakurl/breakurl.sty
+Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+
+Package breakurl Warning: You are using breakurl while processing via pdflatex.
+
+(breakurl)                \burl will be just a synonym of \url.
+(breakurl)                 on input line 48.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
+2020/03/18 3.06c tkz-euclide.sty
+Package: tkz-euclide 2020/03/18 3.06c for euclidan geometry 
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-base.sty
+2020/03/18 3.06c tkz-base.sty
+Package: tkz-base 2020/03/18 3.06c tkz-base
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks53
+\pgfutil@tempdima=\dimen289
+\pgfutil@tempdimb=\dimen290
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box119
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+\pgf@x=\dimen291
+\pgf@y=\dimen292
+\pgf@xa=\dimen293
+\pgf@ya=\dimen294
+\pgf@xb=\dimen295
+\pgf@yb=\dimen296
+\pgf@xc=\dimen297
+\pgf@yc=\dimen298
+\pgf@xd=\dimen299
+\pgf@yd=\dimen300
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count345
+\c@pgf@countb=\count346
+\c@pgf@countc=\count347
+\c@pgf@countd=\count348
+\t@pgf@toka=\toks54
+\t@pgf@tokb=\toks55
+\t@pgf@tokc=\toks56
+\pgf@sys@id@count=\count349
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count350
+\pgfsyssoftpath@bigbuffer@items=\count351
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen301
+\pgf@picmaxx=\dimen302
+\pgf@picminy=\dimen303
+\pgf@picmaxy=\dimen304
+\pgf@pathminx=\dimen305
+\pgf@pathmaxx=\dimen306
+\pgf@pathminy=\dimen307
+\pgf@pathmaxy=\dimen308
+\pgf@xx=\dimen309
+\pgf@xy=\dimen310
+\pgf@yx=\dimen311
+\pgf@yy=\dimen312
+\pgf@zx=\dimen313
+\pgf@zy=\dimen314
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen315
+\pgf@path@lasty=\dimen316
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen317
+\pgf@shorten@start@additional=\dimen318
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box120
+\pgf@hbox=\box121
+\pgf@layerbox@main=\box122
+\pgf@picture@serial@count=\count352
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen319
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen320
+\pgf@pt@y=\dimen321
+\pgf@pt@temp=\dimen322
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen323
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen324
+\pgf@sys@shading@range@num=\count353
+\pgf@shadingcount=\count354
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box123
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box124
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen325
+\pgf@nodesepend=\dimen326
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen327
+\pgffor@skip=\dimen328
+\pgffor@stack=\toks57
+\pgffor@toks=\toks58
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count355
+\pgfplotmarksize=\dimen329
+)
+\tikz@lastx=\dimen330
+\tikz@lasty=\dimen331
+\tikz@lastxsaved=\dimen332
+\tikz@lastysaved=\dimen333
+\tikz@lastmovetox=\dimen334
+\tikz@lastmovetoy=\dimen335
+\tikzleveldistance=\dimen336
+\tikzsiblingdistance=\dimen337
+\tikz@figbox=\box125
+\tikz@figbox@bg=\box126
+\tikz@tempbox=\box127
+\tikz@tempbox@bg=\box128
+\tikztreelevel=\count356
+\tikznumberofchildren=\count357
+\tikznumberofcurrentchild=\count358
+\tikz@fig@count=\count359
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count360
+\pgfmatrixcurrentcolumn=\count361
+\pgf@matrix@numberofcolumns=\count362
+)
+\tikz@expandcount=\count363
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\arrowsize=\dimen338
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
+File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowinset=\dimen339
+\pgfarrowlength=\dimen340
+\pgfarrowwidth=\dimen341
+\pgfarrowlinewidth=\dimen342
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybabel.code.tex
+File: tikzlibrarybabel.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen343
+\pgfdecoratedremainingdistance=\dimen344
+\pgfdecoratedinputsegmentcompleteddistance=\dimen345
+\pgfdecoratedinputsegmentremainingdistance=\dimen346
+\pgf@decorate@distancetomove=\dimen347
+\pgf@decorate@repeatstate=\count364
+\pgfdecorationsegmentamplitude=\dimen348
+\pgfdecorationsegmentlength=\dimen349
+)
+\tikz@lib@dec@box=\box129
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.markings.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.markings.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.shapes.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.shapes.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.text.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.text.code.tex
+\pgf@lib@dec@text@box=\box130
+)
+\tikz@lib@dec@te@box=\box131
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryintersections.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersection
+s.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+\pgf@intersect@solutions=\count365
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.cod
+e.tex
+File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
+.tex
+File: pgflibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarythrough.code.tex
+File: tikzlibrarythrough.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/numprint/numprint.sty
+Package: numprint 2012/08/20 v1.39 Print numbers (HH)
+\c@nprt@mantissa@digitsbefore=\count366
+\c@nprt@mantissa@digitsafter=\count367
+\c@nprt@exponent@digitsbefore=\count368
+\c@nprt@exponent@digitsafter=\count369
+\nprt@digitwidth=\skip75
+\nprt@sepwidth=\skip76
+\nprt@decimalwidth=\skip77
+\nprt@blockwidth=\skip78
+\nprt@digittoks=\toks59
+\nprt@pretoks=\toks60
+\nprt@posttoks=\toks61
+\nprt@thisdigit=\count370
+\nprt@curpos=\count371
+\nprt@rndpos=\count372
+\c@nprt@digitsfirstblock=\count373
+\c@nprt@blockcnt=\count374
+\c@nprt@cntprint=\count375
+
+No configuration file `numprint.cfg' found.)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
+Package: xfp 2020-10-27 L3 Floating point unit
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count376
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count377
+\FP@xia=\count378
+\FP@xib=\count379
+\FP@xfa=\count380
+\FP@xfb=\count381
+\FP@rega=\count382
+\FP@regb=\count383
+\FP@regs=\count384
+\FP@times=\count385
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count386
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+\tkzRadius=\dimen350
+\tkzLength=\dimen351
+\tkz@radi=\dimen352
+\tkz@ax=\dimen353
+\tkz@ay=\dimen354
+\tkz@bx=\dimen355
+\tkz@by=\dimen356
+\tkz@cx=\dimen357
+\tkz@cy=\dimen358
+\tkz@dx=\dimen359
+\tkz@dy=\dimen360
+\tkz@tax=\dimen361
+\tkz@tay=\dimen362
+\tkz@tbx=\dimen363
+\tkz@tby=\dimen364
+\tkz@tcx=\dimen365
+\tkz@tcy=\dimen366
+\tkz@tdx=\dimen367
+\tkz@tdy=\dimen368
+\tkz@cntmk=\count387
+
+Local configuration file tkz-base.cfg found and used
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-base.cfg
+2020/03/18 3.06c tkz-base.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-modules.tex
+2020/03/18 3.06c tkz-tools-utilities.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-lib-marks.tex
+2020/03/18 3.06c tkz-lib-symbols.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-base.tex
+2020/03/18 3.06c tkz-tools-base.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-utilities.tex
+2020/03/18 3.06c tkz-tools-utilities.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-math.tex
+2020/03/18 3.06c tkz-tools-math.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-text.tex
+2020/03/18 3.06c tkz-tools-text.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-BB.tex
+2020/03/18 3.06c tkz-obj-BB.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-arith.tex
+2020/03/18 3.06c tkz-tools-arith.tex
+File: tkz-tool-arith.tex tkz-tool-arith 3.02 c
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-print.tex
+2020/03/18 3.06c tkz-tools-print.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-misc.tex
+2020/03/18 3.06c tkz-tools-misc.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-obj-axes.tex
+2020/03/18 3.06c tkz-obj-axes.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-obj-grids.tex
+2020/03/18 3.06c tkz-obj-grids.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-obj-marks.tex
+2020/03/18 3.07c tkz-obj-marks.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-obj-points.tex
+2020/03/18 3.06c tkz-obj-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-obj-rep.tex
+2020/03/18 3.06c tkz-obj-rep.tex
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-intersections.te
+x
+2020/03/18 3.06c tkz-tools-intersections.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-angles.tex
+2020/03/18 3.06c tkz-tools-angles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-angles.tex
+2020/03/18 3.06c tkz-tool-eu-angles.tex
+\tkz@arcsize=\dimen369
+\tkz@fillsize=\dimen370
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-arcs.tex
+2020/03/23 3.06c tkz-obj-eu-arcs.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-compass.tex
+2020/03/18 3.06c tkz-obj-eu-compass.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles.tex
+2020/03/18 3.06c tkz-obj-eu-circles.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-draw-circles.te
+x
+2020/03/18 3.06c tkz-obj-eu-draw-circles.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-draw-lines.tex
+2020/03/18 3.06c tkz-obj-eu-draw-lines.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-draw-polygons.t
+ex
+2020/03/18 3.06c tkz-obj-eu-polygons.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-draw-triangles.
+tex) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lines.tex
+2020/03/18 3.06c tkz-obj-eu-lines.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
+2020/03/18 3.06c tkz-obj-eu-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-by.tex
+2020/03/18 3.06c tkz-tools-eu-points-by.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-rnd.tex
+2020/03/18 3.06c tkz-obj-eu-points-rnd.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-with.tex
+2020/03/18 3.06c tkz-obj-eu-points-with.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-polygons.tex
+2020/03/18 3.06c tkz-obj-eu-polygons.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-protractor.tex
+2020/03/18 3.06c tkz-obj-eu-protractor.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-sectors.tex
+2020/03/18 3.06c tkz-obj-eu-sectors.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-show.tex
+2020/03/18 3.06c tkz-obj-eu-show.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
+2020/03/18 3.06c tkz-obj-eu-triangles.tex
+))
+\c@rem=\count388
+\c@theorem=\count389
+\c@problem=\count390
+\c@proposition=\count391
+\c@lemma=\count392
+\c@example=\count393
+\c@matchleft=\count394
+\c@matchright=\count395
+) (./gvv-book-bkup.sty
+\hsizevalue=\dimen371
+\vsizevalue=\dimen372
+\c@temp=\count396
+\outermargin=\skip79
+\emailcount=\count397
+\punctcount=\count398
+\aucount=\count399
+\corrauthcount=\count400
+\c@affn=\count401
+\addcount=\count402
+\adjtitleskip=\skip80
+\QELftRghtDimen=\skip81
+\featuretitcnt=\count403
+\c@scheme=\count404
+\tabbodybox=\box132
+\chktabbodywdbox=\box133
+\eqnarraycolsep=\skip82
+\safetymargin=\dimen373
+\safetypaperheight=\dimen374
+\safetypaperwidth=\dimen375
+\blrlwd=\skip83
+\bleed=\dimen376
+\bleedruleht=\skip84
+\brlmvdn=\skip85
+\cropraisedimen=\skip86
+\margwidth=\dimen377
+\pagecntcntr=\count405
+LaTeX Info: Redefining \emph on input line 1667.
+\temQEcnt=\count406
+\authhsize=\dimen378
+\QueryCnt=\count407
+\aqadjdim=\dimen379
+\LASTPAGENO=\count408
+\TmpCnt=\count409
+\iletterskip=\skip87
+)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip88
+\bibsep=\skip89
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count410
+)
+\@indexfile=\write4
+\openout4 = `main.idx'.
+
+
+Writing index file main.idx
+(./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count411
+\scratchdimen=\dimen380
+\scratchbox=\box134
+\nofMPsegments=\count412
+\nofMParguments=\count413
+\everyMPshowfont=\toks62
+\MPscratchCnt=\count414
+\MPscratchDim=\dimen381
+\MPnumerator=\count415
+\makeMPintoPDFobject=\count416
+\everyMPtoPDFconversion=\toks63
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count417
+LaTeX Info: Redefining \celsius on input line 26.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 26.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 26.
+Package gensymb Info: Using \Omega for \ohm on input line 26.
+
+Package gensymb Warning: Not defining \micro.
+
+Package hyperref Info: Link coloring OFF on input line 26.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count418
+)
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
+
+(./main.out) (./main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+<figs/logo.jpg, id=215, 642.4pt x 642.4pt>
+File: figs/logo.jpg Graphic file (type jpg)
+<use figs/logo.jpg>
+Package pdftex.def Info: figs/logo.jpg  used on input line 52.
+(pdftex.def)             Requested size: 128.47772pt x 128.47772pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+Non-PDF special ignored!
+<special> header=pstricks.pro
+Non-PDF special ignored!
+<special> header=pst-algparser.pro
+Non-PDF special ignored!
+<special> header=pst-tools.pro
+Non-PDF special ignored!
+<special> header=pst-dots.pro
+Non-PDF special ignored!
+<special> header=pst-grad.pro
+
+Non-PDF special ignored!
+<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/logo.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+(./main.toc
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 4.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 4.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.196 \begin{introduction}
+                           [1]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.196 \begin{introduction}
+                           [2
+
+]
+
+Package hyperref Warning: bookmark level for unknown schapter defaults to 0.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.201 \mainmatter
+                  [3
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.iv}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.201 \mainmatter
+                  [4
+
+]
+Chapter 1.
+(./7/main.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 22.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+Overfull \hbox (14.5794pt too wide) in paragraph at lines 205--207
+\OT1/cmr/m/n/10.95 point R in-side the tri-an-gle OPQ is such that the tri-an-g
+les OPR,PQR,OQR
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--232
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 238--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--271
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 277--279
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--313
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+<7/fig.png, id=565, 438.63875pt x 313.17pt>
+File: 7/fig.png Graphic file (type png)
+<use 7/fig.png>
+Package pdftex.def Info: 7/fig.png  used on input line 318.
+(pdftex.def)             Requested size: 360.0pt x 257.03043pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <./7/fig.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \hbox (badness 10000) in paragraph at lines 346--348
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34
+
+]
+Chapter 2.
+(./20/main.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 42.
+
+
+Overfull \hbox (108.43538pt too wide) in paragraph at lines 46--47
+[]\OT1/cmr/m/n/10.95 The unit vec-tor per-pen-dicual to plane de-ter-mined by $
+\OML/cmm/m/it/10.95 P\OT1/cmr/m/n/10.95 (1\OML/cmm/m/it/10.95 ; \OMS/cmsy/m/n/1
+0.95 ^^@\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 2)\OML/cmm
+/m/it/10.95 ; Q\OT1/cmr/m/n/10.95 (2\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\
+OML/cmm/m/it/10.95 ; \OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 1)\OML/cmm/m/it/
+10.95 andR\OT1/cmr/m/n/10.95 (0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 2\OML/c
+mm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1)$is.....
+ []
+
+
+Overfull \hbox (24.5635pt too wide) in paragraph at lines 47--48
+[]\OT1/cmr/m/n/10.95 The area of whose ver-tices are $\OML/cmm/m/it/10.95 A\OT1
+/cmr/m/n/10.95 (1\OML/cmm/m/it/10.95 ; \OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.9
+5 1\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 2)\OML/cmm/m/it/10.95 ; B\OT1/cmr/m
+/n/10.95 (2\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 ; \OMS
+/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 1)\OML/cmm/m/it/10.95 C\OT1/cmr/m/n/10.95
+ (3\OML/cmm/m/it/10.95 ; \OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 1\OML/cmm/m/
+it/10.95 ; \OT1/cmr/m/n/10.95 2)$ is.....(1983) 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+Overfull \hbox (26.19838pt too wide) in paragraph at lines 55--56
+[]\OT1/cmr/m/n/10.95 If $\OT1/cmr/bx/n/10.95 a\OML/cmm/m/it/10.95 ; \OT1/cmr/bx
+/n/10.95 b\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 c$ \OT1/cmr/m/n/10.95 are t
+hree non-coplanar vec-tors, then-$[] + []$ =..........(1985) 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 108.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+Overfull \hbox (42.50458pt too wide) in paragraph at lines 158--160
+[]\OT1/cmr/m/n/10.95 If $\OT1/cmr/bx/n/10.95 a\OML/cmm/m/it/10.95 ; \OT1/cmr/bx
+/n/10.95 b$ \OT1/cmr/m/n/10.95 and $\OT1/cmr/bx/n/10.95 c$ \OT1/cmr/m/n/10.95 a
+re three non copla-nar vec-tors, then $[] \OMS/cmsy/m/n/10.95 ^^A [] []$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
+Overfull \hbox (74.44148pt too wide) in paragraph at lines 389--391
+[]\OT1/cmr/m/n/10.95 If $\OT1/cmr/bx/n/10.95 a$ \OT1/cmr/m/n/10.95 and $\OT1/cm
+r/bx/n/10.95 b$ \OT1/cmr/m/n/10.95 are vec-tors such that $\OMS/cmsy/m/n/10.95 
+j \OT1/cmr/bx/n/10.95 a \OT1/cmr/m/n/10.95 + \OT1/cmr/bx/n/10.95 b \OMS/cmsy/m/
+n/10.95 j\OT1/cmr/m/n/10.95 = []$ and $\OT1/cmr/bx/n/10.95 a \OMS/cmsy/m/n/10.9
+5 ^^B [] []$\OT1/cmr/m/n/10.95 =$[] [] \OMS/cmsy/m/n/10.95 ^^B
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+Underfull \vbox (badness 1521) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+Overfull \hbox (45.70535pt too wide) in paragraph at lines 596--597
+\OT1/cmr/m/n/10.95 and O is it's cen-ter. Show that $[][] [] = [] []$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62]
+Overfull \hbox (43.49251pt too wide) in paragraph at lines 614--615
+[]\OT1/cmr/m/n/10.95 If A,B and C are vec-tors such that $\OMS/cmsy/m/n/10.95 j
+ \OML/cmm/m/it/10.95 B \OMS/cmsy/m/n/10.95 j\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/1
+0.95 j \OML/cmm/m/it/10.95 C \OMS/cmsy/m/n/10.95 j$\OT1/cmr/m/n/10.95 . Prove t
+hat $[] [] \OMS/cmsy/m/n/10.95 ^^B
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--618
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63]
+Overfull \hbox (13.13063pt too wide) in paragraph at lines 627--628
+\OT1/cmr/m/n/10.95 where $\OML/cmm/m/it/10.95 r \OT1/cmr/m/n/10.95 = 1\OML/cmm/
+m/it/10.95 ; \OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 3$ ar
+e non neg-a-tive real num-bers and $[][] [] =
+ []
+
+
+Overfull \hbox (86.14453pt too wide) in paragraph at lines 629--630
+[]\OT1/cmr/m/n/10.95 Find the equa-tion of the plane pass-ing through the point
+s $(2\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 ; \OT1/cmr/m
+/n/10.95 0)\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 (5\OML/cmm/m/it/10.95 ; \OT
+1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1)\OML/cmm/m/it/10.95
+ and\OT1/cmr/m/n/10.95 (4\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 11)$. 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65]
+<20/img.png, id=1382, 301.125pt x 161.60374pt>
+File: 20/img.png Graphic file (type png)
+<use 20/img.png>
+Package pdftex.def Info: 20/img.png  used on input line 656.
+(pdftex.def)             Requested size: 360.0pt x 193.21828pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 669--670
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66 <./20/img.png>]
+Underfull \hbox (badness 10000) detected at line 685
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 685
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 685
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 685
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 685
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 685--685
+[]|[]$[] [][] [] \OML/cmm/m/it/10.95 dy\OMS/cmsy/m/n/10.95 j \OT1/cmr/m/n/10.95
+ +
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 685
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 685
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 685--685
+[]|[]\OT1/cmr/m/n/10.95 If $[] \OML/cmm/m/it/10.95 A [] B [] C \OT1/cmr/m/n/10.
+95 +
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 685--685
+[] \OML/cmm/m/it/10.95 A [] B \OT1/cmr/m/n/10.95 = 1$,then the value
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 685
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 685--686
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 701
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 701
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 701
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 701
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 701
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 701
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 701
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 701
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 701--701
+[]|[]\OT1/cmr/m/n/10.95 the equa-tion rep-re-sent the
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 701--701
+\OT1/cmr/m/n/10.95 whole of the three di-men-sional
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 701--702
+[][] 
+ []
+
+
+Underfull \vbox (badness 2409) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+Underfull \hbox (badness 10000) detected at line 718
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 718
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 718
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 718
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 718
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 718--718
+[]|[]\OT1/cmr/m/n/10.95 Volume of the par-al-lelop-iped
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 718
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 718
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 718--718
+[]|[]\OT1/cmr/m/n/10.95 Angle be-teen vec-tor $\OT1/cmr/bx/n/10.95 a\OML/cmm/m/
+it/10.95 and\OT1/cmr/bx/n/10.95 b$
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 718
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 718--719
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68]
+Underfull \hbox (badness 10000) detected at line 735
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 735
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 735
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 735--735
+[]|[]\OT1/cmr/m/n/10.95 Value(s) of k for which the
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 735
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 735
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 735
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 735
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 735
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 735--736
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [69]
+Underfull \hbox (badness 10000) detected at line 753
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 753
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 753
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 753--753
+[]|[]\OT1/cmr/m/n/10.95 The value of x sat-is-fy-ing
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 753--753
+[][] [] \OMS/cmsy/m/n/10.95 ^^@ [][] [] \OT1/cmr/m/n/10.95 =
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 753
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 753
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 753
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 753
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 753
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 753
+\OT1/cmr/m/n/10.95 5.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 753
+\OT1/cmr/m/n/10.95 e)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 753--754
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70]
+Underfull \hbox (badness 10000) detected at line 772
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 772
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 772
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 772
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 772
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 772
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 772
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--772
+[]|[]\OT1/cmr/m/n/10.95 The max-i-mum vaalue of
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 772
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 772
+\OT1/cmr/m/n/10.95 5.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 772
+\OT1/cmr/m/n/10.95 e)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 772--773
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71]
+Underfull \hbox (badness 10000) detected at line 790
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 790--790
+[]|[]\OT1/cmr/m/n/10.95 Volume of par-al-lelop-iped de-
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 790--790
+\OT1/cmr/m/n/10.95 ter-mined by vec-tors $\OT1/cmr/bx/n/10.95 a\OML/cmm/m/it/10
+.95 ; \OT1/cmr/bx/n/10.95 b$ \OT1/cmr/m/n/10.95 and $\OT1/cmr/bx/n/10.95 c$
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 790--790
+\OT1/cmr/m/n/10.95 is 2.Then the vol-ume of par-al-
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 790--790
+\OT1/cmr/m/n/10.95 lelop-iped de-ter-mined by vec-tors
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 790
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 790
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 790--790
+[]|[]\OT1/cmr/m/n/10.95 Volume of par-al-lelop-iped de-
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 790--790
+\OT1/cmr/m/n/10.95 ter-mined by vec-tors $\OT1/cmr/bx/n/10.95 a\OML/cmm/m/it/10
+.95 ; \OT1/cmr/bx/n/10.95 b$ \OT1/cmr/m/n/10.95 and $\OT1/cmr/bx/n/10.95 c$
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 790--790
+\OT1/cmr/m/n/10.95 is 5.Then the vol-ume of par-al-
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 790--790
+\OT1/cmr/m/n/10.95 lelop-iped de-ter-mined by vec-tors
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 790
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 790
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 790
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 790
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 790
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 790--791
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73]
+Underfull \hbox (badness 10000) detected at line 820
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 820
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 820
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 820
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 820
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 820
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 820
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 820
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 820--821
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74]
+Underfull \hbox (badness 10000) detected at line 845
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 845--845
+[] [] \OML/cmm/m/it/10.95 ; x \OMS/cmsy/m/n/10.95 6\OT1/cmr/m/n/10.95 = \OMS/cm
+sy/m/n/10.95 ^^F[]$\OT1/cmr/m/n/10.95 . Then
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 845--845
+[][] [] [] \OT1/cmr/m/n/10.95 + [][]$
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 845
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 845
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Overfull \hbox (70.19545pt too wide) in paragraph at lines 845--845
+[] [][] [] [] []$\OT1/cmr/m/n/10.95 =$[] [][] [] [] []$,then
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 845
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 845
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 845
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 845
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 845
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 845--854
+[][]
+ []
+
+
+Underfull \vbox (badness 2744) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75]
+Underfull \hbox (badness 10000) detected at line 876
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 876
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 876
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 876--876
+\OT1/cmr/m/n/10.95 such that the func-tion $\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/1
+0.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 ) =
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 876
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 876
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 876--876
+[]|[]\OT1/cmr/m/n/10.95 Let $\OML/cmm/m/it/10.95 ^^V \OMS/cmsy/m/n/10.95 6\OT1/
+cmr/m/n/10.95 = 1$ be a com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
+\OT1/cmr/m/n/10.95 plex cube root of unity.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
+\OT1/cmr/m/n/10.95 If $[][] +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
+[][] \OT1/cmr/m/n/10.95 +
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 876--876
+[][] \OT1/cmr/m/n/10.95 = 0$ then
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 876
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 876
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 876
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 876
+\OT1/cmr/m/n/10.95 5.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 876
+\OT1/cmr/m/n/10.95 e)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 876--877
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77]
+Underfull \hbox (badness 10000) detected at line 892
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 892
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 892
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 892
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 892
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 892
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 892
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 892
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 892
+\OT1/cmr/m/n/10.95 5.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 892
+\OT1/cmr/m/n/10.95 e)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 892--893
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+Overfull \vbox (25.22307pt too high) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [79]
+Overfull \hbox (0.74414pt too wide) in paragraph at lines 925--929
+[]\OT1/cmr/m/n/10.95 Consider the plane $3\OML/cmm/m/it/10.95 x \OMS/cmsy/m/n/1
+0.95 ^^@ \OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 y \OMS/cmsy/m/n/10.95 ^^@ \OT1
+/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 z \OT1/cmr/m/n/10.95 = 15$ and $2\OML/cmm/m
+/it/10.95 x \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 y \OMS/cmsy/m/n/10.95 ^^@ 
+\OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 z \OT1/cmr/m/n/10.95 = 5$. STATEMENT-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
+Overfull \hbox (21.18335pt too wide) in paragraph at lines 994--1005
+[]\OT1/cmr/m/n/10.95 If $\OT1/cmr/bx/n/10.95 a\OML/cmm/m/it/10.95 ; \OT1/cmr/bx
+/n/10.95 b\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 c$ \OT1/cmr/m/n/10.95 are v
+ec-tors such that $[]$ then $[]$= 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88]
+Overfull \hbox (14.90794pt too wide) in paragraph at lines 1109--1111
+[]\OT1/cmr/m/n/10.95 A tetra-he-dron has ver-tices at$\OML/cmm/m/it/10.95 O\OT1
+/cmr/m/n/10.95 (0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 
+; \OT1/cmr/m/n/10.95 0)\OML/cmm/m/it/10.95 ; A\OT1/cmr/m/n/10.95 (1\OML/cmm/m/i
+t/10.95 ; \OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1)\OML/c
+mm/m/it/10.95 B\OT1/cmr/m/n/10.95 (2\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\
+OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 3)$ and $\OML/cmm/m/it/10.95 C\OT1/cmr/
+m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 ; \OT
+1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 2)$.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [91]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95]
+Overfull \hbox (63.19319pt too wide) in paragraph at lines 1268--1279
+[]\OT1/cmr/m/n/10.95 If $\OT1/cmr/bx/n/10.95 a\OML/cmm/m/it/10.95 ; \OT1/cmr/bx
+/n/10.95 b\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 c$ \OT1/cmr/m/n/10.95 are n
+on-coplanar vec-tors and $\OML/cmm/m/it/10.95 ^^U$ \OT1/cmr/m/n/10.95 is real n
+um-ber then $[]$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [97]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [101]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [102]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [104]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [105]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [106]
+
+LaTeX Warning: Command \l invalid in math mode on input line 1537.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [107]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [108]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [109]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [110]
+
+LaTeX Warning: Command \L invalid in math mode on input line 1639.
+
+
+LaTeX Warning: Command \L invalid in math mode on input line 1639.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [112])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [113]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [114
+
+]
+Chapter 3.
+(./8/main.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 41.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [115]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [117]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [118]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [119]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [120]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [121]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [122]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [123]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [125]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [126]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [127]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [128]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [129]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [130]
+Overfull \hbox (8.34866pt too wide) in paragraph at lines 337--339
+\OT1/cmr/m/n/10.95 DIRECTIONS (Q.1): Each ques-tion con-tains state-ments given
+ in two columns,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [131]
+Underfull \hbox (badness 10000) in paragraph at lines 346--349
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 361
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 361
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 361
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 361
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 361
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 361
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 361
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 361
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 361
+\OT1/cmr/m/n/10.95 5.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 361
+\OT1/cmr/m/n/10.95 e)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 361
+\OT1/cmr/m/n/10.95 6.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 361
+\OT1/cmr/m/n/10.95 f)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 361--364
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--364
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [132]
+Underfull \hbox (badness 10000) in paragraph at lines 375--378
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 391
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 391
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 391
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 391
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 391
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 391
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 391
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 391
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 391
+\OT1/cmr/m/n/10.95 5.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 391
+\OT1/cmr/m/n/10.95 e)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 391
+\OT1/cmr/m/n/10.95 6.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 391
+\OT1/cmr/m/n/10.95 f)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 391--392
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [133]
+Overfull \hbox (7.82701pt too wide) in paragraph at lines 408--410
+[]\OT1/cmr/m/n/10.95 P is any point of $\OML/cmm/m/it/10.95 C[]$\OT1/cmr/m/n/10
+.95 , and is an-other point on $\OML/cmm/m/it/10.95 C[]$\OT1/cmr/m/n/10.95 , th
+en $[]$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [134]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [135]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [136]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [137]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [138]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [139]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [140]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [141]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [142]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [143]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [144]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [145]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [146]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [147]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [148])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [149]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [150
+
+]
+Chapter 4.
+(./9/main.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 45.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [151]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [152]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [153]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [154]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [155]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [156]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [157]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [158]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [159]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [160]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [161]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [162]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [163]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [164]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [165]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [166]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [167]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [168]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [169]
+Overfull \hbox (7.46425pt too wide) in paragraph at lines 465--466
+[]\OT1/cmr/m/n/10.95 Suppose that the nor-mals drawn at three dif-fer-ent point
+s on the parabola
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [170]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [171]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [172]
+Overfull \hbox (8.34866pt too wide) in paragraph at lines 490--492
+\OT1/cmr/m/n/10.95 DIRECTIONS (Q.1): Each ques-tion con-tains state-ments given
+ in two columns,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [173]
+Underfull \hbox (badness 10000) detected at line 506
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 506
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 506
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 506
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 506
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 506
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 506
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 506
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 506--507
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 519
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 519
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 519
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 519
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 519
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 519
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 519
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 519
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 519--520
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [174]
+Underfull \hbox (badness 10000) detected at line 533
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 533
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 533
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 533
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 533
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 533
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
+[]|[]\OT1/cmr/m/n/10.95 Points of the conic have
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
+\OT1/cmr/m/n/10.95 para-met-ric rep-re-sen-ta-tion
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 533
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 533
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 533
+\OT1/cmr/m/n/10.95 5.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 533
+\OT1/cmr/m/n/10.95 e)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 533--534
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [175]
+Underfull \hbox (badness 10000) detected at line 551
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 551
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 551
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 551
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 551
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 551
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 551
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 551
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 551--560
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--560
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [176]
+Overfull \hbox (59.0345pt too wide) in paragraph at lines 569--575
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [177]
+Underfull \hbox (badness 10000) detected at line 612
+\OT1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 612
+\OT1/cmr/m/n/10.95 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 612
+\OT1/cmr/m/n/10.95 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 612
+\OT1/cmr/m/n/10.95 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 612
+\OT1/cmr/m/n/10.95 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 612
+\OT1/cmr/m/n/10.95 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 612
+\OT1/cmr/m/n/10.95 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 612
+\OT1/cmr/m/n/10.95 d)
+ []
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 612--615
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [178]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [179]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [180]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [181]
+Overfull \hbox (33.78802pt too wide) in paragraph at lines 704--706
+\OT1/cmr/m/n/10.95 PASSAGE-5 Let a, r, s, t be nonzero real num-bers. Let $\OML
+/cmm/m/it/10.95 P\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 at[]; \OT1/cmr/m/n/10.
+95 2\OML/cmm/m/it/10.95 at\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ; R\OT1/cmr/m
+/n/10.95 (\OML/cmm/m/it/10.95 ar[]; \OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 ar\
+OT1/cmr/m/n/10.95 )$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [182]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [183]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [184]
+Underfull \vbox (badness 5696) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [185]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [186]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [187]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [188]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [189]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [190]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [191]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [192]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [193]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [194]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [195]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [196]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [197])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [198]
+No file main.ind.
+(./main.aux)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 186AADD97C2E9BAB25C065534ECCDEFE;3415.
+ ) 
+Here is how much of TeX's memory you used:
+ 31879 strings out of 479304
+ 586020 string characters out of 5869780
+ 1071784 words of memory out of 5000000
+ 45666 multiletter control sequences out of 15000+600000
+ 415008 words of font info for 71 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 218i,16n,217p,853b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfrm0800.pfb>
+Output written on main.pdf (206 pages, 653538 bytes).
+PDF statistics:
+ 4108 PDF objects out of 4296 (max. 8388607)
+ 3823 compressed objects within 39 object streams
+ 2591 named destinations out of 2984 (max. 500000)
+ 500 words of extra memory for PDF output out of 10000 (max. 10000000)
+

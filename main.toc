@@ -1,0 +1,48 @@
+\vskip -8pt
+\contentsline {schapter}{Introduction}{iii}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Straight Line and Pair of Straight Lines}{1}{chapter.1}%
+\contentsline {section}{Section-A [JEE Advanced/IIT-JEE]}{1}{section*.3}%
+\contentsline {section}{A : Fill in the Blanks}{1}{section*.3}%
+\contentsline {section}{B : True/False}{2}{Item.8}%
+\contentsline {section}{C : MCQ'S with One Correct Answer}{3}{Item.10}%
+\contentsline {section}{D : MCQ'S with One or More Than One Correct Answer}{10}{Item.128}%
+\contentsline {section}{E : Subjective Problems}{14}{Item.177}%
+\contentsline {section}{H : Assertion and Reason Type Questions}{20}{Item.205}%
+\contentsline {section}{I : Integer Value Correct Type }{21}{Item.210}%
+\contentsline {section}{Section-B [JEE Main/AIEE]}{21}{Item.211}%
+\contentsline {chapter}{\numberline {2}Three Dimensional Geometry}{35}{chapter.2}%
+\contentsline {section}{Section-A [JEE Advanced/IIT-JEE]}{35}{section*.4}%
+\contentsline {section}{A : Fill in the Blanks}{35}{section*.4}%
+\contentsline {section}{B : True/False}{37}{Item.406}%
+\contentsline {section}{C : MCQ'S with One Correct Answer}{37}{Item.410}%
+\contentsline {section}{D : MCQ'S with One or More Than One Correct Answer}{53}{Item.650}%
+\contentsline {section}{E : Subjective Problems}{61}{Item.765}%
+\contentsline {section}{F : Match The Following}{66}{figure.2.1}%
+\contentsline {section}{F : Comprehension Based Questions}{80}{Item.810}%
+\contentsline {section}{H : Assertion And Reason Type Questions}{81}{Item.825}%
+\contentsline {section}{I : Integer Value Correct Type }{82}{Item.840}%
+\contentsline {section}{Section-B [JEE Advanced/IIT-JEE]}{84}{Item.853}%
+\contentsline {section}{A : Fill in the Blanks}{84}{Item.853}%
+\contentsline {chapter}{\numberline {3}Circle}{115}{chapter.3}%
+\contentsline {section}{Section-A [JEE Advanced/IIT-JEE]}{115}{section*.5}%
+\contentsline {section}{A : Fill in the Blanks}{115}{section*.5}%
+\contentsline {section}{B : True/False}{117}{Item.1338}%
+\contentsline {section}{C : MCQ'S with One Correct Answer}{117}{Item.1340}%
+\contentsline {section}{D : MCQ'S with One or More Than One Correct Answer}{125}{Item.1465}%
+\contentsline {section}{E : Subjective Problems}{128}{Item.1500}%
+\contentsline {section}{F : Match The Following}{131}{Item.1524}%
+\contentsline {section}{G : Comprehension Based Questions}{134}{Item.1542}%
+\contentsline {section}{H : Assertion And Reason Type Questions}{138}{Item.1592}%
+\contentsline {section}{I : Integer Value Correct Type }{139}{Item.1602}%
+\contentsline {section}{Section-B [JEE Mains /AIEEE]}{140}{Item.1606}%
+\contentsline {chapter}{\numberline {4}Conic Sections}{151}{chapter.4}%
+\contentsline {section}{Section-A [JEE Advanced/IIT-JEE]}{151}{section*.6}%
+\contentsline {section}{A : Fill in the Blanks}{151}{section*.6}%
+\contentsline {section}{C : MCQ'S with One Correct Answer}{151}{Item.1758}%
+\contentsline {section}{D : MCQ'S with One or More Than One Correct Answer}{163}{Item.1933}%
+\contentsline {section}{E : Subjective Problems}{170}{Item.2038}%
+\contentsline {section}{F : Match The Following}{174}{Item.2058}%
+\contentsline {section}{G : Comprehension Based Questions}{179}{Item.2082}%
+\contentsline {section}{H : Assertion And Reason Type Questions}{183}{Item.2152}%
+\contentsline {section}{I : Integer Value Correct Type }{184}{Item.2157}%
+\contentsline {section}{Section-B [JEE Mains /AIEEE]}{186}{Item.2168}%

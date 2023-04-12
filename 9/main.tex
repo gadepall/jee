@@ -1,0 +1,1069 @@
+\iffalse
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{ragged2e}
+\usepackage{listings}
+\usepackage{array}
+\newenvironment{matchtabular}{%
+  \setcounter{matchleft}{0}%
+  \setcounter{matchright}{0}%
+  \tabularx{\textwidth}{%
+    >{\leavevmode\hbox to 1.5em{\stepcounter{matchleft}\arabic{matchleft}.}}X%
+    >{\leavevmode\hbox to 1.5em{\stepcounter{matchright}\alph{matchright})}}X%
+    }%
+}{\endtabularx}
+
+%\usepackage{blindtext}
+\usepackage{multicol}
+\title{Multicols Demo}
+\setlength{\columnsep}{0.1cm}
+\usepackage{tabularx}
+\usepackage{tabularray}
+\usepackage{amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\newcounter{matchleft}
+\newcounter{matchright}
+
+\newcommand*{\vv}[1]{\vec}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\lbrak}[1]{\ensuremath{\left(#1\right.}}
+\providecommand{\rbrak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\sbrak}[1]{\ensuremath{{}\left[#1\right]}}
+%\let\vec\mathbf
+
+\begin{document}
+\begin{center}
+\textbf\large{CHAPTER-9 \\ Conic Sections}
+
+\end{center}
+\fi
+\section*{Section-A    [JEE Advanced/IIT-JEE]}
+\section*{A    :  Fill in the Blanks}
+\begin{enumerate}
+\item The point of intersection of the tangents at the ends of the latus rectum of the parabola $y^2=4x$ is...............(1994)
+\item An ellipse has eccentricityand one focus at the point $P\sbrak{\frac{1}{2},1}$. Its one directrix is the common tangent, nearer to the point P, to the circle $x^2+y^2=1$ and the hyperbola $x^2-y^2=1$. The equation of the ellipse, in the standard form is......(1996)
+\end{enumerate}
+
+\section*{C  :   MCQ'S with One Correct Answer}
+
+\begin{enumerate}
+\item The equation $\frac{x^2}{1-r}-\frac{y^2}{1+r}=1,r>1$ represents (1981)
+\begin{enumerate}
+\item an ellipse
+\item a hyperbola
+\item a circle
+\item none of these
+\end{enumerate}
+\item Each of the four inequalties given below defines a region in the xy plane. One of these four regions does not have the following property. For any two points $(x_1,y_1)$ and $(x_2,y_2)$ in the region, the point $\sbrak{\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}}$ is also in the region. The inequality defining this region is (1981)
+\begin{enumerate}
+\item $x^2+y^2\leq 1$
+\item Max$ \{ \mid x \mid, \mid y \mid \} \leq 1 $
+\item $x^2-y^2\leq 1$
+\item $y^2-x\\eq 0$
+\end{enumerate}
+\item The equation $x^2+y^2+2x+3y-8x-18y+35=k$ represents (1994)
+\begin{enumerate}
+\item no locus if $k>0$
+\item no ellipse if $k<0$
+\item no point if $k=0$
+\item no hyperbola if $k>0$
+\end{enumerate}
+\item  Let E be the ellipse $\frac{x^2}{9}+\frac{y^2}{4}=1$ and C be the circle $x^2+y^2=9$. Let P and Q be the points (1,2) and (2,1) respectively. Then (1994)
+\begin{enumerate}
+\item Q lies inside C but outside E
+\item Q lies outside both C and E
+\item P lies inside both C and E
+\item P lies inside C but outside E
+\end{enumerate}
+\item Consider a circle with its centre lying on the focus of the parabola $y^2=2Px$ such that it touches the directrix of the parabola. Then a point of intersection of the circle and parabola is (1995)
+\begin{enumerate}
+\item $\sbrak{\frac{P}{2},P}$ or $\sbrak{\frac{P}{2},-P}$
+\item $\sbrak{\frac{P}{2},-\frac{P}{2}}$
+\item $\sbrak{-\frac{P}{2},P}$
+\item $\sbrak{-\frac{P}{2},-\frac{P}{2}}$
+\end{enumerate}
+\item The radius of the circle passing through the foei of the ellipse $\frac{x^2}{16}+\frac{y^2}{9}=1$ and having its centre at (0,3) is (1995)
+\begin{enumerate}
+\item 4
+\item 3
+\item $\sqrt{\frac{1}{2}}$
+\item $\frac{7}{2}$
+\end{enumerate}
+\item Let $P(a\sec\theta,b\tan\theta)$ and $Q(a\sec\theta,b\tan\theta)$, where $\theta+\phi=\frac{\pi}{2}$  be two points on the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$. If(h,k) is the point of intersection of the normals at P and Q then k is equal to (1999)
+\begin{enumerate}
+\item $\frac{a^2+b^2}{a}$
+\item $-\frac{a^2+b^2}{a}$
+\item $\frac{a^2+b^2}{b}$
+\item $-\frac{a^2+b^2}{b}$
+\end{enumerate}
+\item If x=9 is the chord of contact of the hyperbola $x^2-y^2=9$, then the equation of the corresponding pair of tangents  is (1999)
+\begin{enumerate}
+\item $9x^2+8y^2+18x-9=0$
+\item $9x^2+8y^2+18x+9=0$
+\item $9x^2+8y^2-18x-9=0$
+\item $9x^2+8y^2-18x+9=0$
+\end{enumerate}
+\item The curve described parametrically by $x=t^2+t+1,y=t^2-t+1$ represents  (1999)
+\begin{enumerate}
+\item a pair of straight lines
+\item an ellippse 
+\item a parabola
+\item a hyperbola
+\end{enumerate}
+\item If $x+y=k$ is normal to $y^2=12x$, then k is (2000)
+\begin{enumerate}
+\item 3
+\item 9
+\item -9
+\item -3
+\end{enumerate}
+\item If the line $x-1=0$ is the directrix of the parabola $y^2-kx+8=0$, then one of the values of k is (2000)
+\begin{enumerate}
+\item $\frac{1}{8}$
+\item 8
+\item 4 
+\item $\frac{1}{4}$
+\end{enumerate}
+\item The equation of the common tangent touching the circle $(x-3)^2+y^2=9$ and the parabola $y^2=4x$ above the x-axis is (2001)
+\begin{enumerate}
+\item $\sqrt{3}y=3x+1$
+\item $\sqrt{3}y=-(x+3)$
+\item $\sqrt{3}y=(x+3)$
+\item $\sqrt{3}y=-(3x+1)$
+\end{enumerate}
+\item  The equation of the directrix of the parabola $y^2+4y+4x+2=0$ is (2001)
+\begin{enumerate}
+\item $x=-1$
+\item $x=1$
+\item $x=-\frac{3}{2}$
+\item $x=\frac{3}{2}$
+\end{enumerate}
+\item If $a>2b>0$ then the positive value of m for which $y=mx-b\sqrt{1+m^2}$ is a common tangent to $x^2+y^2=b^2$ and $(x-a)^2+y^2=b^2$ is (2002)
+\begin{enumerate}
+\item $\frac{2b}{\sqrt{a^2-4b^2}}$
+\item $\frac{\sqrt{a^2-4b^2}}{2b}$
+\item $\frac{2b}{a-2b}$
+\item $\frac{b}{a-2b}$
+\end{enumerate}
+\item The locus of the mid-point of the line segment joining the focus to a moving point on the parabola $y=4ax$ is another parabola with directrix (2002)
+\begin{enumerate}
+\item $x=-a$
+\item $-\frac{a}{2}$
+\item $x=0$
+\item $\frac{a}{2}$
+\end{enumerate}
+\item The equation of the common tangent to the curves $y^2=8x$ and $xy=-1$ is (2002)
+\begin{enumerate}
+\item $3y=9x+2$
+\item $y=2x+1$
+\item $2y=x+8$
+\item $y=x+2$
+\end{enumerate}
+\item The area of the quadrilateral formed by the tangents at the end points of latus rectum to the ellipse $\frac{x^2}{9}+\frac{y^2}{5}=1$ is  (2003)
+\begin{enumerate}
+\item $\frac{27}{4}sq.units$
+\item 9 sq.units
+\item $\frac{27}{2}sq.units$
+\item 27 sq.units 
+\end{enumerate}
+\item The focal chord to $y^2=16x$ is tangent to $(x-6)^2+y^2=2$, then the possible values of the slope of this chord, are (2003)
+\begin{enumerate}
+\item $\{-1,1\}$
+\item $\{-2,2\}$
+\item $\{-2,-\frac{1}{2}\}$
+\item $\{2,-\frac{1}{2}\}$
+\end{enumerate}
+\item For hyperbola $\frac{x^2}{\sin^2\alpha}-\frac{y^2}{cos^2\alpha}=1$  which of the following remains constant with change in $'\alpha'$ (2003)
+\begin{enumerate}
+\item abscissae of vertices
+\item abscissae of foci
+\item eccentricity
+\item directrix
+\end{enumerate}
+\item Iftangents are drawn to the ellipse $x^2+2y^2=2$, then the locus of the mid-point ofthe intercept made by the tangents between the coordinate axes is (2004)
+\begin{enumerate}
+\item $\frac{1}{2x^2}+\frac{1}{4y^2}=1$
+\item $\frac{1}{4x^2}+\frac{1}{2y^2}=1$
+\item $\frac{x^2}{2}+\frac{y^2}{4}=1$
+\item $\frac{x^2}{4}+\frac{y^2}{2}=1$
+\end{enumerate}
+\item The angle between the tangents drawn from the point (1,4) to the parabola $y^2=4x$ is (2004)
+\begin{enumerate}
+\item $\frac{\pi}{6}$
+\item $\frac{\pi}{4}$
+\item $\frac{\pi}{3}$
+\item $\frac{\pi}{2}$
+\end{enumerate}
+\item Ifthe line $2x+\sqrt{6}y=2$ touches the hyperbola $x^2-y^2=4$ then the point of contact is (2004)
+\begin{enumerate}
+\item $(-2\sqrt{6})$
+\item $(-5,\sqrt[2]{6})$
+\item $(\frac{1}{2},\frac{1}{\sqrt{6}})$
+\item $(4,-\sqrt{6})$
+\end{enumerate}
+\item The minimum area of triangle formed by the tangent to the $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1 \&$ coordinate axes is (2005)
+\begin{enumerate}
+\item ab sq.units
+\item $\frac{a^2+b^2}{2}$sq.units
+\item $\frac{(a+b)^2}{2}$sq.units
+\item $\frac{a^2+ab+b^2}{3}$sq.units
+\end{enumerate}
+\item Tangent to the curve $y=x^2+6$ at a point (1,7) touches the circle $x^2+y^2+16x+12y+c=0$ at a point Q. Then the coordinates of Q are (2005)
+\begin{enumerate}
+\item (-6,-11)
+\item (-9,-13)
+\item (-10,-15)
+\item (-7,-5)
+\end{enumerate}
+\item The axis ofa parabola is along the line $y=x$ and the distances of its vertex and focus from origin are $\sqrt{2}$ and $\sqrt[2]{2}$ respectively. If vertex and focus both lie in the first quadrant, then the equation of the parabola is (2006)
+\begin{enumerate}
+\item $(x+y)^2=(x-y-2)$
+\item $(x-y)^2=(x+y-2)$
+\item $(x-y)^2=4(x+y-2)$
+\item $(x-y)^2=8(x+y-2)$
+\end{enumerate}
+\item A hyperbola, having the transverse axis of length $2 \sin\theta$,is confocal with the ellipse $3x^2+4y^2=12$. Then its equation is (2007)
+\begin{enumerate}
+\item $x^2 \mathrm{cosec}^2\theta-y^2\sec^2\theta= 1$
+\item $x^2 \sec^2\theta-y^2\mathrm{cosec}^2\theta= 1$
+\item $x^2 \sin^2\theta-y^2\cos^2\theta= 1$
+\item $x^2 \cos^2\theta-y^2\sin^2\theta= 1$
+\end{enumerate}
+\item  Leta and b be non-zero real numbers. Then, the equation $(ax^2+by^2+c)(-5xy+6y) =0$ represents (2008)
+\begin{enumerate}
+\item four straight lines, when c=0 and a, b are ofthe same sign.
+\item two straight lines and a circle, when a=b, and cis of sign opposite to that of a
+\item two straight lines and a hyperbola, when a and b are of the same sign and c is of sign opposite to that of a
+\item a circle and an ellipse, when a and b are of the same sign and c is of sign opposite to that of a 
+\end{enumerate}
+\item Consider a branch of the hyperbola$x^2-y^2-\sqrt[2]{2}x-\sqrt[4]{2}y-6=0$. with vertex at the point A. Let B be one of the end point so its latus rectum. IfC is the focus of the hyperbola nearest to the point A, then the area of the triangle ABC is (2008)
+\begin{enumerate}
+\item $1-\sqrt{\frac{2}{3}}$
+\item $\sqrt{\frac{3}{2}}-1$
+\item $1+\sqrt{\frac{2}{3}}$
+\item $\sqrt{\frac{3}{2}}+1$
+\end{enumerate}
+\item  The line passing through the extremity A of the major axis and extremity B of the minor axis of the ellipse $X^2+9y^2=9$ meets its auxiliary circle at the point M. Then the area of the triangle with vertices at A, M and the origin O is (2008)
+\begin{enumerate}
+\item $\frac{31}{10}$
+\item $\frac{29}{10}$
+\item $\frac{21}{10}$
+\item $\frac{27}{10}$
+\end{enumerate}
+\item  The normal at a point P on the elipse $x^2+4y^2=16$ mets the x-axis at Q. If M is the mid point of the line segment PQ, then the locus of M intersects the latus rectums of the given ellipse at the points (2009)
+\begin{enumerate}
+\item $\sbrak{\pm \frac{\sqrt[3]{5}}{2},\pm \frac{2}{7}}$ 
+\item $\sbrak{\pm \frac{\sqrt[3]{5}}{2},\pm \sqrt{\frac{19}{4}}}$ 
+\item $\sbrak{\pm \sqrt[2]{3},\pm \frac{1}{7}}$ 
+\item $\sbrak{\pm \sqrt[2]{3},\pm \frac{\sqrt[4]{3}}{7}}$ 
+\end{enumerate}
+\item The locus of the orthocentre of the triangle formed by the lines
+$(1+p)x-PY+p(1+p)=0$,
+$(1+q)x-qy+q(1+q)=0$, 
+and $y=0$, where $p\neq q$, is (2009)
+\begin{enumerate}
+\item a hyperbola
+\item a parabola
+\item an ellipse
+\item a straight line
+\end{enumerate}
+\item Let P(6, 3) be a point on the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$.If the
+normal at the point P intersects the x-axis at (9,0), then the eccentricity of the hyperbola is (2011)
+\begin{enumerate}
+\item $\sqrt{\frac{5}{2}}$
+\item $\sqrt{\frac{3}{2}}$
+\item $\sqrt{2}$
+\item $\sqrt{3}$
+\end{enumerate}
+\item Let (x, y) be any point on the parabola $y^2=4x$. Let P be thepoint that divides the line segment from (0,0) to (x,y) in the ratio $1:3$. Then the locus of P is (2011)
+\begin{enumerate}
+\item $x^2=y$
+\item $y^2=2x$
+\item $y^2=x$
+\item $x^2=2y$
+\end{enumerate}
+\item The ellipse E: $\frac{x^2}{9}+\frac{y^2}{4}=1$ is inscribed in a rectangle R whose sides are parallel to the coordinate axes. Another ellipse E, passing through the point (0,4) circumscribes the rectangleR. The eccentricity of the ellipse E, is (2012)
+\begin{enumerate}
+\item $\frac{\sqrt{2}}{2}$
+\item $\frac{\sqrt{3}}{2}$
+\item $\frac{1}{2}$
+\item $\frac{3}{2}$ 
+\end{enumerate}
+\item The common tangents to the circle $x^2+y^2=2$ and the parabola $y=8x$ touch the circle at the points P, Q and the parabola at the points R, S. Then the area of the quadrilateral PQRS is (2014)
+\begin{enumerate}
+\item 3
+\item 6
+\item 9
+\item 15
+\end{enumerate}
+\end{enumerate}
+
+
+\section*{D  :  MCQ'S with One or More Than One Correct Answer}
+
+\begin{enumerate}
+\item The number of values of c such that the straight line $y=4x+c$ touches the curve $(x^2/4)+y2=1$ is (1998)
+\begin{enumerate}
+\item 0
+\item 1
+\item 2
+\item infinity
+\end{enumerate}
+\item If P=(x,y), $F_1=(3,0),F_2=(-3,0)$ and $16x^2+25y^2=400$,then $PF_1+PF_2$ equals (1998)
+\begin{enumerate}
+\item 8
+\item 6
+\item 10
+\item 12
+\end{enumerate}
+\item On the ellipse $4x^2+9y^2=1$, the points at which the tangents are parallel to the line $8x=9y$ are (1999)
+\begin{enumerate}
+\item $\frac{2}{5},\frac{1}{5}$
+\item $-\frac{2}{5},\frac{1}{5}$
+\item $-\frac{2}{5},-\frac{1}{5}$
+\item $\frac{2}{5},-\frac{1}{5}$
+\end{enumerate}
+\item he equations of the common tangents to the parabola $y=x^2$ and $y=-(x-2)^2$ is/are (2006)
+\begin{enumerate}
+\item $y=4(x-1)$
+\item $y=0$
+\item $y=-4(x-1)$
+\item $y=-30x-50$
+\end{enumerate}
+\item Let a hyperbola passes through the focus of the ellipse $\frac{x^2}{25}+\frac{y^2}{16}=1$. The transverse and conjugate axes of this hyperbola coincide with the major and minor axes of the given ellipse, also the product of eccentricities of given ellipse and hyperbola is 1, then (2006)
+\begin{enumerate}
+\item  the equation of hyperbola is $\frac{x^2}{9}-\frac{y^2}{16}=1$
+\item  the equation of hyperbola is $\frac{x^2}{9}-\frac{y^2}{25}=1$
+\item  focus of hyperbola is (5,0)
+\item  vertex of hyperbola is $(\sqrt[5]{3},0)$
+\end{enumerate}
+\item Let $P(x_1,y_1)$ and $Q(x_2,y_2),y_1<0,y_2<0$, be the end points of the latus rectum of the ellipse $x^2+4y^2=4$. The equations of parabolas with latus rectum PQ are 
+(2008)
+\begin{enumerate}
+\item $x^2+\sqrt[2]{3}y=3+\sqrt{3}$
+\item $x^2-\sqrt[2]{3}y=3+\sqrt{3}$
+\item $x^2+\sqrt[2]{3}y=3-\sqrt{3}$
+\item $x^2-\sqrt[2]{3}y=3-\sqrt{3}$
+\end{enumerate}
+\item In a triangle ABC with fixed base BC, the vertex A moves such that $\cos B+\cos C=4\sin^2\frac{A}{2}$. If a, b and c denote the lengths of the sides of the triangle opposite to the angles A, B and C, respectively, then (2009)
+\begin{enumerate}
+\item $b+c=4a$
+\item $b+c= 2a$
+\item locus of point A is an ellipse
+\item locus of point A is a pair of straight lines
+\end{enumerate}
+\item The tangent PTand the normal PN to the parabola $y^2=4ax$ at a point P on it meet its axis at points T and N, respectively The locus of the centroid of the triangle PTN is a parabola whose (2009)
+\begin{enumerate}
+\item Vertex is $\sbrak{\frac{2a}{3},0}$
+\item directrix is $x=0$
+\item latus rectum is $\frac{2a}{3}$
+\item focus is $(a,0)$
+\end{enumerate}
+\item An ellipse intersects the hyperbola $2x^2-2y^2=1$ orthogonally. The eccentricity of the ellipse is reciprocal of that of the hyperbola. If the axes of the ellipse are along the coordinate axes, then (2009)
+\begin{enumerate}
+\item equation of ellipse is $2x^2+2y^2=2$
+\item the foci of ellipse are $(\pm 1,0)$
+\item equation of ellipse is $2x^2+2y^2=4$
+\item the foci of ellipse are $(\pm\sqrt{2},0)$
+\end{enumerate}
+\item Let A and B be two distinct points on the parabola $y=4x$. If  the axis of the parabola touchesa circle of radius r having AB as its diameter, then the slope of the line joining A and B can be (2010)
+\begin{enumerate}
+\item $-\frac{1}{r}$
+\item $\frac{1}{r}$
+\item $-\frac{2}{r}$
+\item $\frac{2}{r}$
+\end{enumerate}
+\item Let the eccentricity of the hyperbola $\frac{^2}{a^2}-\frac{y^2}{b^2}=1$ be reciprocal to that of the ellipse $x^2+ 4y^2=4$. If the hyperbola passes through a focus of the ellipse, then (2011)
+\begin{enumerate}
+\item the equation of the hyperbola is $\frac{^2}{3}-\frac{y^2}{2}=1$ 
+\item a focus ofthe hyperbola is (2, 0)
+\item the eccentricity of the hyperbola is $\frac{\sqrt{5}}{2}$
+\item the equation of the hyperbola is $x^2-3y^2=3$
+\end{enumerate}
+\item Let L be a normal to the parabola $y=4x$. If L passes throughthe point (9,6) then L is given by (2011)
+\begin{enumerate}
+\item $y-x+3=0$
+\item $y+3x-33=0$
+\item $y+x-15=0$
+\item $y-2x+12=0$ 
+\end{enumerate}
+\item Tangents are drawn to the hyperbola $\frac{x^2}{9}-\frac{y^2}{4=1}$, parallel to the straight line $2x-y=1$. The points of contact of thetangents on the hyperbola are (2012)
+\begin{enumerate}
+\item $\sbrak{\frac{9}{\sqrt[2]{2}},\frac{1}{\sqrt{2}}}$
+\item $\sbrak{-\frac{9}{\sqrt[2]{2}},-\frac{1}{\sqrt{2}}}$
+\item $\sqrt[3]{3},-\sqrt[2]{2}$
+\item $-\sqrt[3]{3},\sqrt[2]{2}$
+\end{enumerate}
+\item Let Pand Qbe distinct points on the parabola $y^2=2x$ such that a circle with PQ as diameter passes through the vertex O of the parabola. If P lies in the first quadrant and the ares ofthe triangle $\triangle OPQ$ is $\sqrt[3]{2}$,then which of the following is (are) the coordinates of P? (2015)
+\begin{enumerate}
+\item $(4,\sqrt[2]{2})$
+\item $(9,\sqrt[3]{2})$
+\item $\sbrak{\frac{1}{4},\frac{1}{\sqrt{2}}}$
+\item $(1\sqrt{2})$
+\end{enumerate}
+\item Let $E_1$ and $E_2$  be two ellipses whose centers are at the origin The major axes of $E_1$ and $E_2$, lie along the x-axis and the y-axis, respectively. Let S $E_1$ and $E_2$  be the circle $x^2+(y-1)^2=2$.The straight line $x+y=3$ touches the curves.S at P,Q and R respectively. Suppose that PO = PR =$\frac{\sqrt[2]{2}}{3}$. If $e_1$, and $e_2$ are the eccentricities of $E_1$ and $E_2$ respectively, then the correct expression(s) is (are) (2015)
+\begin{enumerate}
+\item $e_1^2+e_2=\frac{43}{40}$
+\item $e_1e_2=\frac{\sqrt{7}}{\sqrt[2]{7}}$
+\item $\mid e_1^2-e_2^2\mid =\frac{5}{8}$
+\item $e_1e_2=\frac{\sqrt{3}}{4}$
+\end{enumerate}
+\item Consider the hyperbola $H:x^2-y^2=1$ and a circle S with center N$(x_2,0)$. Suppose that H and S touch each other at a point $P(x_1,y_1)$ with $x >1$ and $y>0$. The common tangent to H and S at P intersects the x-axis at point M. If$(l,m)$ is the centroid of the triangle PMN, then the correct expressions is(are) (2015)
+\begin{enumerate}
+\item $\frac{dl}{dx_1}=1-\frac{1}{3x_1^2}forx_1>1$
+\item $\frac{dm}{dx_1}=\frac{x_1}{3\sbrak{\sqrt{x_1^2-1}}}forx_1>1$
+\item $\frac{dl}{dx_1}=1+\frac{1}{3x_1^2}forx_1>1$
+\item $\frac{dm}{dy_1}=1-\frac{1}{3}fory_1>1$
+\end{enumerate}
+\item he circle $C_1:x^2+y^2=3$, with centre at O, intersects theparabola $x^2=2y$ at the point P in the first quadrant. Let the tangent to the circle $C_1$, at P touches other two circles $C_2$ and $C_3$ at $R_2$ and $R_3$, respectively. Suppose $C_2$ and $C_3$ have equal radii $\sqrt[2]{3}$ and centres $Q_2$ and $Q_3$, respectively. If $Q_2$ and $Q_3$ lies on the y-axis, then (2016)
+\begin{enumerate}
+\item $Q_2Q_3=12$
+\item $R_2R_3=\sqrt[4]{6}$
+\item area of the triangle $OR_2R_3=\sqrt[6]{2}$
+\item area of the triangle $OQ_2Q_3=\sqrt[4]{2}$
+\end{enumerate}
+\item Let P be the point on the parabola $y^2=4x$ which is at the shortest distance from the center S of the circle $x^2+y^2-4x-16y+64=0$. Let Q be the point on the circle dividing the line segment SP internally. Then (2016)
+\begin{enumerate}
+\item $SP=\sqrt[2]{5}$
+\item $SQ:QP=(\sqrt{5+1}):4$
+\item the x-intercept of the normal to the parabola at P is 6
+\item the slope of the tangent to the circle at Q is $\frac{1}{2}$
+\end{enumerate}
+\item If $2x-y+1=0$ is a tangent to the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{16}=1$,then which of the following cannot be sides ofa right angled
+triangle? (2017)
+\begin{enumerate}
+\item a,4,1
+\item a,4,2
+\item 2a,8,1
+\item 2a,4,1
+\end{enumerate}
+\item Ifa chord, which is not a tangent, of the parabola $y^2=16x$ has the equation $2x+y=p$, and midpoint (h,k), then which of the following is(are) possible value(s) of p,h and k? (2017)
+\begin{enumerate}
+\item p=-2, h=2, k=4
+\item p=-1, h=1, k=-3
+\item p= 2, h=3, k=4
+\item p=-5, h=4, k=-3
+\end{enumerate}
+\item Consider two straight lines, each of which is tangent to both the circle $x^2+y^2=\frac{1}{2}$ and the parabola $y^2=4x$. Let these lines intersect at the point Q. Consider the ellipse whose center is at the origin O(0,0) and whose semi-major axis is OQ. If the length of the minor axis of this ellipse is $\sqrt{2}$, then which of the following statement(s) is (are) TRUE? (2018)
+\begin{enumerate}
+\item For the ellipse, the eccentricity is $\frac{1}{\sqrt{2}}$ and the length ofthe latus rectum is 1
+\item For the ellipse, the eccentricity is $\frac{1}{2}$ and the length of
+the latus rectum is $\frac{1}{2}$
+\item The area of the region bounded by the ellipse between the lines $x=\frac{1}{\sqrt{2}}$ and $x=l$ is $\frac{1}{\sqrt[4]{2}}(\pi-2)$
+\item The area of the region bounded by the ellipse between the lines $x=\frac{1}{\sqrt{2}}$ and $x=1$ is $\frac{1}{16}(\pi-2)$
+\end{enumerate}
+\end{enumerate}
+
+\section*{E  :  Subjective Problems}
+
+\begin{enumerate}
+\item Suppose that the normals drawn at three different points on the parabola $y^2=4x$ pass through the point (h,k). Show that $h>2$. (1981)
+\item A is a point on the parabola $y^2=4ax$. The normal at A cuts the parabola again at point B. If AB subtends aright angle at the vertex of the parabola. find the slope of AB
+(1982)
+\item Three normals are drawn from the point (c,0) to the curve $y=x$. Show that c must be greater than $\frac{1}{2}$. One normal is always the x-axis. Find c for which the other two normals are perpendicular to each other.(1991)
+\item Through the vertex O of parabola $y=4x$, chords OP and OQ are drawn at right angles to one another. Show that for all positions of P, PQ cuts the axis ofthe parabola at a fixed point. Also find the locus of the middle point of PQ.(1994)
+\item Show that the locus of a point that divides a chord of slope 2 of the parabola $y^2 =4x$ internally in the ratio $1:2$ is a parabola. Find the vertex of this parabola.(1995)
+\item Let 'd' be the perpendicular distance from the centre of the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ to the tangent drawn at a point P on the ellipse. If $F_1$ and $F_2$ are the two foci of the ellipse, then $\brak{PF_1-PF_2}=4a^2\sbrak{1-\frac{b^2}{d^2}}$.(1995)
+\item Point A,B and C lie on the parabola $y^2=4ax$. The tangents to the parabola A,B and C taken in pairs, intersects with points P,Q and R. Determine the ratio of the areas of the triangle ABC and PQR (1996)
+\item From a point A common tangents are drawn to the circle $x^2+y^2=a^2$ and parabola $y^2=4ax$. Find the area of thequadrilateral formed by the common tangents, the chord of
+contact of the circle and the chord of contact of the parabola (1996)
+\item A tangent to the ellipse $x^2+4y^2=4$ meets the ellipse $x^2+2y^2=6$ at P and Q. Prove that the tangents at P and Q of the ellipse $x^2+2y^2=6$ are at right angles. (1997)
+\item The angle between a pair of tangents drawn from a point P to the parabola $y^2=4ax$ is $45\circ$. Show that the locus of the point P is a hyperbola.(1998)
+\item Consider the family of circles $x^2+y^2=r^2,2<r<5$. If in the first quadrant, the common tangent to a circle of this family and the ellipse $4x^2+25y^2=100$ meets the co-ordinate axes at A and B, then find the equation of the locus of the mid-point of AB.(1999)
+\item Find the co-ordinates of all the points P on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$, or which the area of the triangle PON is a maximum, where O denotes the origin and N, the foot of the perpendicular from O to the tangent at P.(1999)
+\item Let ABC be an equilateral triangle inscribed in the circle $x^2+y^2=a^2$. Suppose perpendiculars from A, B, C to the major axis of the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1,(a> b)$ meets the ellipse respecti vely, at P, O, R. so that P,Q,R lie on the same side of the major axis as A, B, C respectively. Prove that the normals to the ellipse drawn at the points P, Q and R are concurrent. (2000)
+\item Let C, and C, be respectively, the parabolas x =y- 1 and y=x- 1. Let P be any point on $C_1$ and Q be any point on $C_2$. Let $P_1$  and $Q_1$, be the reflections of P and Q,respectively with respect to the line $y=x$. Prove that $P_1$, lies on $C_2$, $Q_1$ lies on $C_1$, and $PQ> min\{ PP_1,QQ_1$. Hence or otherwise determine points $P_0$ and $Q_0$, on the parabolas $C_1$ and $C_2$ respectively such that $P_0Q_0\geq PQ$  for all pairs of points (P,Q) with P on $C_1$, and Q on $C_2$. (2000)
+\item Let Pbe a point on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1,0<b<a$. Let the line parallel to y-axis passing through P meet the circle $x^2+y^2=a^2$ at the point Q such that P and Q are on the same side of x-axis. For two positive real numbers r and s, find the locus of the point R on PQ such that $PR:RQ=r:s$ as P varies over the ellipse.(2000)
+\item Prove that,in an ellipse, the perpendicular from a focus upon any tangent and the line joining the centre of the ellipse to the point of contact meet on the corresponding directrix. (2002)
+\item Normals are drawn from the point P with slopes $m_1m_2,m_3$ to the parabola $y= 4x$. If locus of P with $m_1m_2=\alpha$ is a part of the parabola itself then find $\alpha$. (2003)
+\item Tangent is drawn to parabola $y^2-2y-4x+5=0$ at a point P which cuts the directrix at the point Q. A point R is such that it divides QP externally in the ratio $\frac{1}{2}:1$. Find the locus of point R. (2004)
+\item Tangents are drawn from any point on the hyperbola $\frac{x^2}{9}+\frac{y^2}{4}=1$ to the circle $x2+y^2 =9$. Find the locus of mid-point of the chord of contact. (2005)
+\item Find the equation of the common tangent in $1^st$ quadrant to he circle $x^2+y^2=16$ and the ellipse $\frac{x^2}{25}+\frac{y^2}{9}=1$. Also find the length of the intercept of the tangent between the coordinate axes (2005)
+\end{enumerate}
+\section*{F  :  Match The  Following}
+ 
+ DIRECTIONS (Q.1): Each question contains statements given in two columns, which have to be matched. The statements in Column-I are labelled 1, 2, 3 and 4. while the statements in Columa-II are labelled as a,b,c, d and e. Any given statement in Column-I can have correct matching with ONE OR MORE statement(s) in Column-II. The appropriate bubbles corresponding to the answer to these questions have to be darkened as illustrated in the following example:
+If the correct matches are 1-a. s and e: 2-b and c: 3-1 and 2: and 4-d 
+
+\begin{enumerate}
+\item Match the following : (3,0) is the pt. from which three normals are drawn to the parabola $y^2=4x$ which meet the parabola in the points P, Q and R. Then (2006)
+\begin{multicols}{2}
+column-I \\
+column-II
+
+\end{multicols}
+
+\begin{matchtabular}
+Area of triange $\triangle PQR$ & 2\\
+radius of circumcircle $\triangle PQR$  & $\frac{5}{2}$\\
+centroide of $\triangle PQR$ & $(\frac{5}{2},0)$\\
+circumcenter of $\triangle PQR$ & $(\frac{2}{3},0)$\\
+\end{matchtabular}
+\item Match the statements in Column I with the properties in Column II and indicate your answer by darkening the appropriate bubbles in the $4\times4$ matrix givén in the ORS. (2007)
+\begin{multicols}{2}
+column-I \\
+column-II
+
+\end{multicols}
+
+\begin{matchtabular}
+Two intersecting circles & have a common tangent\\
+Twomutually external circles & have a common normal\\
+Two circles, one strictly inside the other & do not have a common tangent \\
+Two branches of a hyperbola & do not have a common normal \\
+\end{matchtabular} 
+\item Match the conics in Column I with the statements/expressions in Column II. . (2009)
+\begin{multicols}{2}
+column-I \\
+column-II
+
+\end{multicols}
+
+\begin{matchtabular}
+circle & The locus of the point (h,k) for which the line $hx+ky=1$ touches the circle $x^2+y^2=4$\\ 
+parabola &  Points z in the complex plane satisfying $\mid z+2 \mid-\mid z-2\mid =\pm 3$\\
+ellipse & Points of the conic have parametric representation $x=\sqrt{3}\sbrak{\frac{1-t^2}{1+t^2}},y=\sbrak{\frac{2t}{1-t^2}}$ \\
+hyperbola & The accentricity of the conic lies in the interval $1<x<\infty$\\ & Points z in the complex plane satisfying $Re(z+1)^2=\mid z \mid^2=1$
+
+\end{matchtabular}
+
+DIRECTIONS (Q-4): Following question has matching lists. The codes for the list have choices (a), (b), (c) and (d) out of which ONLY ONE is correct.
+
+\item A line L:$y=mx+3$ meets y-axis at E(0, 3) and the arc of the parabola $y^2=16x,0\leq 6\leq 0$ at the point F$(x_0,Y_0)$. The tangent to the parabola at $F(x_0,Y_0)$ intersects the y-axis at $G(0,y_1)$. The slope m of the line L is chosen such that the arca of the triangle EFG has a local maximum. (2013)\\
+
+Match List I with List II and select the correct answer using the code given below the lists:
+\begin{multicols}{2}
+List-I \\
+List-II
+
+\end{multicols}
+
+\begin{matchtabular} 
+m= & $\frac{1}{2}$\\
+Maximum area of $\triangle EFG$ is & 4\\
+$y_0=$ & 2\\
+$y_1=$ & 1
+\end{matchtabular}
+Codes:\\
+ \begin{tabular}{c c c c c}
+             & 1 & 2 & 3 & 4 \\
+         (p) & d & b & c & a \\
+         (q) & b & c & a & d \\
+         (r) & c & d & a & b \\
+         (s) & a & d & c & b \\
+        \end{tabular}\\
+        
+Q(5-7) By appropriately matching the in formation given in the three columns of the following table. Column 1, 2, and 3 contain conics, equations of tangents to the conics and points of contact, respectively. 
+\begin{multicols}{3}
+column-I \\
+column-II \\
+column-III
+
+\end{multicols}
+
+\begin{tabular}{ m{3.5cm} m{4.5cm} m{4.5cm} }
+(I)  $x^2+y^2=a^2$ & (i) $my=m^2x+a$ & (P) $\sbrak{\frac{a}{m^2}\frac{2a}{m}}$  \\ 
+(II) $x^2+a^2y^2=a^2$ & (ii) $y=mx+a\sqrt{m^2+1}$ & (Q) $\sbrak{\frac{-ma}{\sqrt{m^2+1}},\frac{a}{\sqrt{m^2+1}}}$ \\  
+(III) $y^2=4ax$ & (iii) $y=mx+\sqrt{a^2m^2+1}$ & (R) $\sbrak{\frac{-a^2m}{\sqrt{a^2m^2+1}},\frac{1}{\sqrt{a^2m^2+1}}}$ \\
+(IV) $x^2-a^2y^2=a^2$ & (iv) $y=mx+\sqrt{a^2m^2-1}$ &  (S) $\sbrak{\frac{-a^2m}{\sqrt{a^2m^2-1}},\frac{1}{\sqrt{a^2m^2-1}}}$ 
+\end{tabular}
+
+
+
+\item For $a=\sqrt{2}$, if a tangent is drawn to a suitable conic (Column-I) at the point of contact (-1,1), then which of the following options is the only correct combination for obtaining its equation? (2017)
+\begin{enumerate}
+\item (I)(i)(P)
+\item (I)(ii)(Q)
+\item (II)(ii)(Q)
+\item (III)(ii)(P)
+\end{enumerate}
+\item Tangent to a suitable conic (column I) is found to be $y=x+8$ and its point of contact is (8,16), then which of the following options is the only correct combination?
+(2018)
+\begin{enumerate}
+\item (I)(ii)(Q)
+\item (II)(iv)(R)
+\item (III)(i)(P)
+\item (III)(ii)(Q)
+\end{enumerate}
+\item The tangent to a suitable conic (Column I) at $\sbrak{\sqrt{3},\frac{1}{2}}$ is found to be $\sqrt{3}x+2y=4$, then which of the following options is the only correct combination? (2018)
+\begin{enumerate}
+\item (IV)(iii)(S)
+\item (IV)(iv)(S)
+\item (II)(iii)(R)
+\item (II)(iv)(R)
+\end{enumerate}
+\item Let $H:\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$, where $a>b>0$, be a hyperbola in the xy-plane whose conjugate axis LM subtends an angle of $60^\circ$ at one of its vertices N. Let the area of the triangle LMN be $\frac{4}{\sqrt{3}}$ (2018)
+\begin{multicols}{2}
+List-I \\
+List-II
+
+\end{multicols}
+
+\begin{matchtabular} 
+The length of the conjugate axis of H is &  8\\
+The eccentricity of H is  &  $\frac{4}{\sqrt{3}}$ \\
+The distance between the foci of H is & $\frac{2}{\sqrt{3}}$ \\
+The length of the latus rectum of H is & 4
+\end{matchtabular}
+The correct option is:
+\begin{enumerate}
+\item $1\rightarrow d;2\rightarrow b;3\rightarrow a;4\rightarrow c$
+\item $1\rightarrow  d;2\rightarrow c;3\rightarrow a;4\rightarrow b$
+\item $1\rightarrow d;2\rightarrow a;3\rightarrow c;4\rightarrow b$
+\item $1\rightarrow c;2\rightarrow d;3\rightarrow b;4\rightarrow a$
+\end{enumerate}
+\end{enumerate}
+\section*{G  :  Comprehension Based Questions}
+
+PASSAGE-1
+ Consider the circle $x^2+y^2=9$ and the parabola $y^2=8x$. They intersect at P and Q in the first and the fourth quadrants,respectively Tangents to the curcle at Pand Q intersect the x-axis at R and tangents to the parabola at Pand Q intersect the x-axis at S.
+\begin{enumerate}
+\item The ratio of the areas of the triangles PQS and POR is (2007)
+\begin{enumerate}
+\item $1:\sqrt{2}$
+\item $1:2$
+\item $1:4$
+\item $1:8$
+\end{enumerate}
+\item The radius of the circumcircle of the triangle PRS is  (2007)
+\begin{enumerate}
+\item 5
+\item $\sqrt[5]{3}$
+\item $\sqrt[3]{2}$
+\item $\sqrt[2]{3}$
+\end{enumerate}
+\item The radius of the incircle of the triangle PQR is (2007)
+\begin{enumerate}
+\item 4
+\item 3
+\item $\frac{8}{3}$
+\item 2
+\end{enumerate}
+PASSAGE-2
+The circle $x^2+y^2-8x=0$ and hyperbola $\frac{x^2}{9}-\frac{y^2}{4}=1$ intersect at
+the point A and B (2010)
+\item Equation of a common tangent with positive slope to the circle as well as to the hyperbola is 
+\begin{enumerate}
+\item $2x-\sqrt{5}y-20x=0$
+\item $2x-\sqrt{5}y+x=0$
+\item $3x-4y+8=0$
+\item $4x-3y+4=0$
+\end{enumerate}
+\item Equation of the circle with AB as its diameter is 
+\begin{enumerate}
+\item $x^2+y^2-12x+24=0$
+\item $x^2+y^2+12x+24=0$
+\item $x^2+y^2-24x+12=0$
+\item $x^2+y^2-24x-12=0$
+\end{enumerate}
+PASSAGE-3
+Tangents are drawn from the point P(3,4) to the ellipse $\frac{x^2}{9}+\frac{y^2}{4}=1$ touching the ellipse at points A and B. (2010)
+\item The coordinates of A and B are
+\begin{enumerate}
+\item (3,0) and (0,2)
+\item $\sbrak{\frac{-8}{5},\frac{\sqrt[2]{161}}{15}}$ and $\sbrak{\frac{-9}{5},\frac{8}{5}}$
+\item $\sbrak{\frac{-8}{5},\frac{\sqrt[2]{161}}{15}}$ and (0,2)
+\item $\sbrak{\frac{-9}{5},\frac{8}{5}}$ and (3,0)
+\end{enumerate}
+\item The orthocenter of the triangle PAB is
+\begin{enumerate}
+\item $\sbrak{5,\frac{8}{7}}$
+\item $\sbrak{\frac{7}{5},\frac{25}{8}}$
+\item $\sbrak{\frac{11}{5},\frac{8}{5}}$
+\item $\sbrak{\frac{8}{25},\frac{7}{5}}$
+\end{enumerate}
+\item The equation of the locus of the point whose distances from the point P and the line AB are equal,is
+\begin{enumerate}
+\item $x^2+y^2-6xy-54x-62y+241=0$
+\item $x^2+9y^2+6xy-54x+62y-241=0$
+\item $9x^2+9y^2-6xy-54x-62y-241=0$
+\item $x^2+y^2-2xy+27x+31y-120=0$
+\end{enumerate}
+PASSAGE-4
+Let PQ be a focal chord of the parabola $y^2=4ax$. The tangents to the parabola at P and Q meet at a point lying on the line $y=2x+a,a>0$.
+\item Length of chord PQ is (2013)
+\begin{enumerate}
+\item 7
+\item 5
+\item 2 
+\item 3
+\end{enumerate}
+\item If chord PQ subtends an angle $\theta$ at the vertex of $y^2=4ax$,then 
+$\tan \theta$ (2013)
+\begin{enumerate}
+\item $\frac{2}{3}\sqrt{7}$
+\item $-\frac{2}{3}\sqrt{7}$
+\item $\frac{2}{3}\sqrt{5}$
+\item $-\frac{2}{3}\sqrt{5}$
+\end{enumerate}
+PASSAGE-5
+Let a, r, s, t be nonzero real numbers. Let $P(at^2,2at), R(ar^2,2ar)$ and $S(as^2,2as)$ be distinct points on the parabola $y^2=4ax$. Suppose that PQ is the focal chord and lines QR and PK are parallel, where K is the point (2a,0). (2014)
+\item The value of r is 
+\begin{enumerate}
+\item $-\frac{1}{t}$
+\item $\frac{t^2+1}{t}$
+\item $\frac{1}{t}$
+\item $\frac{t^2-1}{t}$
+\end{enumerate}
+\item If $st=1$, then the tangent at P and the normal at S to the parabola meet at a point whose ordinate is
+\begin{enumerate}
+\item $\frac{(t^2+1)^2}{2t^3}$
+\item $a\frac{(t^2+1)^2}{2t^3}$
+\item $a\frac{(t^2+1)^2}{t^3}$
+\item $a\frac{(t^2+2)^2}{t^3}$
+\end{enumerate}
+PASSAGE-6
+Let $F_1(x_1,0)$ and $F_2(x_2,0)$ for $x_1<0$ and $x_2>0$, be the foci of the ellipse Suppose $\frac{x^2}{9}+\frac{y^2}{4}=1$ a parabola having vertex at the origin and focus at $F_2$, intersects the ellipse at point M in the first quadrant and at point N in the fourth quadrant.
+\item The orthocentre ofthe triangle $F_1MN$ is (2016)
+\begin{enumerate}
+\item $\sbrak{-\frac{9}{10},0}$
+\item $\sbrak{\frac{2}{3},0}$
+\item $\sbrak{\frac{9}{10},0}$
+\item $\sbrak{\frac{2}{3},\sqrt{6}}$
+\end{enumerate}
+\item If the tangents to the ellipse at M and N meet at R and the normal to the parabola at M meets the x-axis at Q, then the ratio of area of the triangle MOR to area of the quadrilateral $MF_1NF_2$, is
+\begin{enumerate}
+\item $3:4$
+\item $4:5$
+\item $5:8$
+\item $2:3$
+\end{enumerate}
+\end{enumerate}
+\section*{H   :  Assertion And Reason Type Questions}
+
+\begin{enumerate}
+\item STATEMENT-1: The curve $y=-\frac{x^2}{2}+x+1$ is symmetric with respect to the line $x=1$. because
+STATEMENT-2: A parabola is symmetric about its axis.(2007)
+\begin{enumerate}
+\item Statement-1 is True, Statement-2 is Tue; Statement-2 is a correct explanation for Statement-1
+\item Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement
+\item Statement-1 is True, Statement-2 is False
+\item Statement-1 is False, Statement-2 is True.
+\end{enumerate}
+\end{enumerate}
+\section*{I    : Integer Value Correct Type }
+
+\begin{enumerate}
+\item The line $2x^2+y^2=1$ is tangent to the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ If this line passes through the point of intersection of the nearest directrix and the x-axis, then the eccentricity of the hyperbola is (2010)
+\item Consider the parabola $y^2=8x$. Let A, be the area of the triangle formed by the end points of its latus rectum and the point $P\sbrak{\frac{1}{2},2}$ on the parabola and $\triangle_2$, be the area of the triangle formed by drawing tangents at P and at the end the points of the latus rectum. Then $\frac{\triangle_1}{\triangle_2}$ is (2011)
+\item Let S be the focus of the parabola $y=8x$ and let PQ be the common chord of the circle $x^2+y^2-2x-4y=0$ and the given parabola. The area of the triangle PQS is (2012)
+\item A vertical line passing through the point (h,0) intersects the ellipse $\frac{x^2}{4}+\frac{y^2}{3}=1$ at the points P and Q. Let the tangents to the ellipse at P and Q meet at the point R. If $\triangle(h)$ = area of the triangle PQR,$\triangle_1$=${max_{\frac{1}{2}\leq h \leq 1}}\triangle(h)$ and $\triangle_2$=${min_{\frac{1}{2}\leq h \leq 1}}\triangle(h)$ then, $\frac{8}{\sqrt{5}}\triangle_1-8\triangle_2$ (2013)
+\begin{enumerate}
+\item g(x) is continuous but not differentiable at a
+\item g(r) is differentiable on R
+\item g(X) is continuous but not differentiable at b
+\item g(x) is continuous and differentiable at either (a) or (b) but not both
+\end{enumerate}
+\item If the normals of the parabola $y^2=4x$ drawn at the end points of its latus rectum are tangents to the circle $(x-3)^2+(y+2)^2=r^2$, then the value of $r^2$ is (2015)
+\item Let the curve Cbe the mirror image of the parabola $y^2=4x$ with respect to the line $x+y+4=0$. If A and B are the pointsof intersection of C with the line $y=-5$, then the distance between A and B is (2015)
+\item Suppose that the foci of the ellipse $\frac{x^2}{9}+\frac{y^2}{5}=1$ are, $(f_1,0)$ and $(f_2,0)$ where $f_1>0$ and $f_2<0$. Let $P_1$ and $P_2$ be two parabolas with a common vertex at (0,0) and with foci at $(f_1,0)$ and $(2f_2,0)$ respectively. Let $T_1$ be a tangent to $P_1$ which passes through $(2f_2,0)$ and $T_2$ be a tangent to $P_2$
+which passes through G,0). If $m_1$, is the slope of $T_1$, and $m_2$ be slope of $T_2$, then the value of $\sbrak{\frac{1}{m_1^2}+m_2^2}$ is (2015)
+\end{enumerate}
+
+\section*{Section-B    [JEE Mains /AIEEE]}
+
+
+\begin{enumerate}
+\item Two common tangents to the circle $x^2+y^2=2a^2$ and parabola $y^2=8ax$ are (2002)
+\begin{enumerate}
+\item $x=\pm(y+2a)$
+\item $y=\pm(x+2a)$
+\item $x=\pm(y+a)$
+\item $y=\pm(x+a)$
+\end{enumerate}
+\item The normal at the point $(bt_1^2,2bt_1)$ on a parabola meets the parabola again in the point $(bt_2^2,2bt_2)$ then (2003)
+\begin{enumerate}
+\item $t_2=t_1+\frac{1}{t_1}$
+\item $t_2=-t_1-\frac{1}{t_1}$
+\item $t_2=-t_1+\frac{1}{t_1}$
+\item $t_2=t_1-\frac{1}{t_1}$
+\end{enumerate}
+\item The foci of the ellipse $\frac{x^2}{16}+\frac{y^2}{b^2}=1$ and the hyperbola $\frac{x^2}{144}-\frac{y^2}{81}=\frac{1}{25}$ coincide. Then the value of $b^2$ is (2003)
+\begin{enumerate}
+\item 9
+\item 1
+\item 5
+\item 7
+\end{enumerate}
+\item If $a0$ and the line $2bx+3cy+4d=0$ passes through the points of intersection of the parabolas $y^2=4ax$ and $x^2=4ay$, then (2004)
+\begin{enumerate}
+\item $d^2+(3b-2c)^2=0$
+\item $d^2+(3b+2c)^2=0$ 
+\item $d^2+(2b+3c)^2=0$ 
+\item $d^2+(2b-3c)^2=0$ 
+\end{enumerate}
+\item The eccentricity of an ellipse, with its centre at the origin, is $\frac{1}{2}$. If one of the directrices is $x^2=4$, then the equation of the ellipse: (2004)
+\begin{enumerate}
+\item $4x^2+3y^2=1$
+\item $3x^2+4y^2=12$
+\item $4x^2+3y^2=12$
+\item $3x^2+4y^2=1$
+\end{enumerate}
+\item Let Pbe the point (1,0) and Qa point on the locus $y^2=8x$ The locus of mid point of PQ is (2005)
+\begin{enumerate}
+\item $y^2-4x+2=0$
+\item $y^2+4x+2=0$
+\item $x^2+4y+2=0$
+\item $x^2-4y+2=0$
+\end{enumerate}
+\item The locus of a point $P(\alpha,\beta)$ moving under the condition that the line $y=\alpha x+\beta$ is a tangent to the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ is  (2005)
+\begin{enumerate}
+\item an ellipse
+\item a circle
+\item a parabola
+\item a hyperbola
+\end{enumerate}
+\item An ellipse has OB as semi minor axis, F and $F'$ its focii and the angle $FBF'$ is a right angle. Then the eccentricity of the ellipse is (2005)
+\begin{enumerate}
+\item $\frac{1}{\sqrt{2}}$
+\item $\frac{1}{2}$
+\item $\frac{1}{4}$
+\item $\frac{1}{\sqrt{3}}$
+\end{enumerate}
+\item The locus of the vertices of the family of parabolas $y=\frac{a^3x^2}{3}+\frac{a^2x}{2}-2a$ is (2006)
+\begin{enumerate}
+\item $xy=\frac{105}{64}$
+\item $xy=\frac{3}{4}$
+\item $xy=\frac{35}{16}$
+\item $xy=\frac{64}{105}$
+\end{enumerate}
+\item In an ellipse, the distance between its foci is 6 and minoraxis is 8. Then its eccentricity is (2006)
+\begin{enumerate}
+\item $\frac{3}{5}$
+\item $\frac{1}{2}$
+\item $\frac{4}{5}$
+\item $\frac{1}{\sqrt{5}}$
+\end{enumerate}
+\item Angle between the tangents to the curve $y=x^2-5x+6$ at the points (2,0) and (3,0) is (2006)
+\begin{enumerate}
+\item $\pi$
+\item $\frac{\pi}{2}$
+\item $\frac{\pi}{6}$
+\item $\frac{\pi}{4}$
+\end{enumerate}
+\item For the Hyperbola $\frac{x^2}{\cos^2\alpha}-\frac{y^2}{\sin^2\alpha}=1$, which of the following remains constant when $\alpha$ varies=? (2007)
+\begin{enumerate}
+\item  abscissae of vertices
+\item abscissae of foci
+\item  eccentricity
+\item directrix.
+\end{enumerate}
+\item The equation of a tangent to the parabola $y= 8x$ is $y=x+2$. The point on this line from which the other tangent to the parabola is perpendicular to the given
+tangent is (2007)
+\begin{enumerate}
+\item (2,4)
+\item (-2,0)
+\item (1,1)
+\item (0,2)
+\end{enumerate}
+\item The normal to a curve at P(x,y) meets the x-axis at G. If the distance of G from the origin is twice the abscissa of P, then the curve is a (2007)
+\begin{enumerate}
+\item circle
+\item hyperbola
+\item ellipse
+\item parabola 
+\end{enumerate}
+\item Afocus of an ellipse is at the origin. The directrix is the line $x=4$ and the eccentricity is Then the length of the semi-major axis is (2007)
+\begin{enumerate}
+\item $\frac{8}{3}$
+\item $\frac{2}{3}$
+\item $\frac{4}{3}$
+\item $\frac{5}{3}$
+\end{enumerate}
+\item A parabola has the origin as its focus and the line $x=2$ as the directrix. Then the vertex of the parabola is at (2008)
+\begin{enumerate}
+\item (0,2)
+\item (1,0)
+\item (2,0)
+\item (0,1)
+\end{enumerate}
+\item The ellipse $x^2+4y^2=4$ is inscribed in a rectangle aligned with the coordinate axes, which in turn is inscribed in another ellipse that passes through the point (4, 0). Then the equation of the ellipse is (2009)
+\begin{enumerate}
+\item $x^2+4y^2=4$
+\item $x^2+12y^2=16$
+\item $4x^2+48y^2=48$
+\item $x^2+16y^2=16$
+\end{enumerate}
+\item If two tangents drawn from a point P to the parabola $y^2=4x$ are at right angles, then the locus of P is (2010)
+\begin{enumerate}
+\item $2x+1=0$
+\item $x=-1$
+\item $2x-1=0$
+\item $x=1$
+\end{enumerate}
+\item Equation of the ellipse whose axes are the axes of coordinates and which passes through the point (-3,1) and has eccentricity $\sqrt{\frac{2}{5}}$ is (2011)
+\begin{enumerate}
+\item $5x^2+3y^2-48=0$
+\item $3x^2+5y^2-15=0$
+\item $5x^2+3y^2-32=0$
+\item $3x^2+5y^2-32=0$
+\end{enumerate}
+\item Statement-1: An equation of a common tangent to the parabola $y=\sqrt[16]{3}x$ and the ellipse $2x^2+y^2=4$ is $y=2x+\sqrt[2]{3}$\\
+Statement-2:Iftheline $y=mx+\frac{\sqrt[4]{3}}{m}(m\neq 0)$ is a common tangent to the parabola $y=\sqrt[16]{3}x$ and the ellipse $2x^2+y^2=4$, then m satisfies $m^4+2m^2=24$
+(2012)
+\begin{enumerate}
+\item Statement-1 is false, Statement-2 is true.
+\item Statement-1 is true, statement-2 is true; statement-2is a correct explanation for Statement-1.
+\item Statement-1 is true, statement-2 is true; statement-2 is not a correct explanation for Statement-1.
+\item Statement-1 is true, statement-2 is false.
+\end{enumerate}
+\item An ellipse is drawn by takinga diameter of the circle $(x-1)^2+y^2=1$ as its semi-minor axis and a diameter of the circle $x^2+(y-2)^2=4$ is semi-major axis. If the centre of the ellipse is at the origin and its axes are the coordinate axes, then the
+equation of the ellipse is: (2012)
+\begin{enumerate}
+\item $4x^2+y^2=4$
+\item $x^2+4y^2=8$
+\item $4x^2+y^2=8$
+\item $x^2+4y^2=16$
+\end{enumerate}
+\item The equation of the circle passing through the foci of the elipse $\frac{x^2}{16}+\frac{y^2}{9}=1$, and having centreat (0,3) is (2013)
+\begin{enumerate}
+\item $x^2+y^2-6y-7=0$
+\item $x^2+y^2-6y+7=0$
+\item $x^2+y^2-6y-5=0$
+\item $x^2+y^2-6y+5=0$
+\end{enumerate}
+\item Given :A circle, $2x^2+2y^2=5$ and a parabola, $y^2=\sqrt[4]{5}x$.\\
+Statement-1 : An equation of a common tangent to these curves is $y=x+\sqrt{5}$\\
+Statement-2 : If the line, $y=mx+\frac{\sqrt{5}}{m} (m\neq 0)$ is their common tangent, then m satisfies $m^4-3m^2+2=0$ (2013)
+\begin{enumerate}
+\item Statement-1 is true; Statement-2 is true; Statement-2 is a correct explanation for Statement-1.
+\item  Statement-1 is true; Statement-2 is true; Statement-2 is not a correct explanation for Statement-1.
+\item Statement-1 is true; Statement-2 is false.
+\item Statement-1 is false; Statement-2 is true.
+\end{enumerate}
+\item The locus of the foot of perpendicular drawn from the centre
+ofthe ellipse $x^2+3y^2=6$ on any tangent to it is (2014)
+\begin{enumerate}
+\item $\brak{x^2+y^2}^2=6x^2+2y^2$
+\item $\brak{x^2+y^2}^2=6x^2-2y^2$
+\item $\brak{x^2-y^2}^2=6x^2+2y^2$
+\item $\brak{x^2-y^2}^2=6x^2-2y^2$
+\end{enumerate}
+\item The slope of the line touching both the parabolas $y^2=4x$ and $x^2=-32y$ is (2014)
+\begin{enumerate}
+\item $\frac{1}{8}$
+\item $\frac{2}{3}$
+\item $\frac{1}{2}$
+\item $\frac{3}{2}$
+\end{enumerate}
+\item Let O be the vertex and Q be any point on the parabola, $x^2=8y$. Ifthe point P divides the line segment OQ internally in the ratio $1:3$, then locus of P is: (2015)
+\begin{enumerate}
+\item $y^2=2x$
+\item $x^2=2y$
+\item $x^2=y$
+\item $y^2=x$
+\end{enumerate}
+\item  The normal to the curve, $x^2+2xy-3y^2=0$, at (1,1) (2015)
+\begin{enumerate}
+\item meets the curve again in the third quadrant.
+\item meets the curve again in the fourth quadrant.
+\item does not meet the curve again.
+\item mects the curve again in the second quadrant.
+\end{enumerate}
+\item The area(in sq. units) of the quadrilateral formed by the tangents at the end points of the latera recta to the ellipse $\frac{x^2}{9}+\frac{y^2}{5}=1$. is : (2015)
+\begin{enumerate}
+\item $\frac{27}{2}$
+\item 27
+\item $\frac{27}{3}$
+\item 18
+\end{enumerate}
+\item Let P be the point on the parabola, $y^2=8x$ which is at a minimum distance from the eentre C of the circle, $x^2+(y+6)^2=1$. Then the oquation of the circle, passing through C and having ts centre at P is: (2016)
+\begin{enumerate}
+\item $x^2+y^2-\frac{x}{4}+2y-24=0$
+\item $x^2+y^2-4x+9y+18=0$
+\item $x^2+y^2-4x+8y+18=0$
+\item $x^2+y^2-x+4y-12=0$
+\end{enumerate}
+\item The eccentricity of the hyperbola whose length of the latus rectum is cqual to 8 and the length of its conjugate axis is equal to half of the distance between its foci, is: (2016)
+\begin{enumerate}
+\item $\frac{2}{\sqrt{3}}$
+\item $\sqrt{3}$
+\item $\frac{4}{3}$
+\item $\frac{4}{\sqrt{3}}$
+\end{enumerate}
+\item A hyperbola passes through the point $P(\sqrt{2},\sqrt{3})$ and has foci at $(\pm 2,0)$. Then the tangent to this hyperbola at P also passes through the point: (2017)
+\begin{enumerate}
+\item $(-\sqrt{2},-\sqrt{3})$
+\item $(\sqrt[3]{2},\sqrt[2]{3})$
+\item $(\sqrt[2]{2},\sqrt[3]{3})$
+\item $(\sqrt{3},\sqrt{2})$
+\end{enumerate}
+\item The radius ofa circle, having minimum area, which touches the curve $y=4-x^2$ and the lines, $y=\mid x \mid $ is (2018)
+\begin{enumerate}
+\item  $4(\sqrt{2}+1)$
+\item  $2(\sqrt{2}+1)$
+\item  $2(\sqrt{2}-1)$
+\item  $4(\sqrt{2}-1)$
+\end{enumerate}
+\item Tangents are drawn to the hyperbola $4x^2-y^2=36$ at the points P and Q. If these tangents intersect at the point T(0,3) then the area(in sq. units) of $\triangle APTQ$ is: (2018)
+\begin{enumerate}
+\item  $\sqrt[54]{3}$
+\item  $\sqrt[66]{3}$
+\item  $\sqrt[36]{5}$
+\item  $\sqrt[45]{5}$
+\end{enumerate}
+\item Tangent and normal are drawn at P(16,16) on the parabola $y^2=16x$, which intersect the axis of the parabola at A and B respectively. If C is the centre of the circle through the points P,A and B and $\angle CPB=\theta$ ,then a value of $\tan \theta$ is (2018)
+\begin{enumerate}
+\item  2
+\item 3
+\item $\frac{4}{3}$
+\item $\frac{1}{2}$
+\end{enumerate} 
+\item Two sets A and B are as under:\\
+$A=\{(a,b)\in R\times R:\mid a-5 \mid <1 and \mid b-5 \mid <1 \}$;\\
+$B=\{(a,b)\in R\times R:4(a-6)^2+9(b-5)^2\leq 36\}$. Then: (2018)
+\begin{enumerate}
+\item $A\subset B$
+\item $A\cap B=\phi (an empty set)$
+\item  neither $A\subset B$ or $B \subset A$
+\item $B \subset A$
+\end{enumerate} 
+\item If the tangent at (1,7) to the curve $x^2=y-6$ touches the circle $x^2+y^2+16x +12y+c=0$ then the value of c is : (2018)
+\begin{enumerate}
+\item 185
+\item 85
+\item 195
+\item 95
+\end{enumerate}
+\item Axis of a parabola lies along x-axis. If its vertex and focus are at distance 2 and 4 respectively from the origin, on the positive x-axis then which of the following points does not lie on it? (2019)
+\begin{enumerate}
+\item $(5,\sqrt[2]{6})$
+\item (8,6)
+\item $(6,\sqrt[4]{2})$
+\item (4,-4)
+\end{enumerate}
+\item Let $0<\theta, \frac{\pi}{2}$. If the eccentricity of the hyperbola $\frac{x^2}{\cos^2\theta}-\frac{y^2}{\sin^2\theta}=1$ is greater than 2, then the length of its
+latus rectum lies in the interval: (2019)
+\begin{enumerate}
+\item $(3,\infty)$
+\item $(\frac{3}{2},2)$
+\item $(2,3)$
+\item $(1,\frac{3}{2})$
+\end{enumerate}
+\item Equation of a common tangent to the circle ,$x^2+y^2-6x=0$ and the parabola $y^2=4x$, is: (2019)
+\begin{enumerate}
+\item $\sqrt[2]{3}y=12x+1$
+\item $\sqrt{3}y=x+3$
+\item $\sqrt[2]{3}y=-x-12$
+\item $\sqrt{3}y=3x+1$
+\end{enumerate} 
+\item If the line $y=mx+\sqrt[7]{3}$ is normal to the hyperbola $\frac{x^2}{24}-\frac{y^2}{18}=1$, then a value of m is :(2019)
+\begin{enumerate}
+\item $\frac{\sqrt{5}}{2}$
+\item $\frac{\sqrt{15}}{2}$
+\item $\frac{2}{\sqrt{5}}$
+\item $\frac{3}{\sqrt{5}}$
+\end{enumerate}
+\item If one end of a focal chord of the parabola, $y^2=8x$ is at (1,4), then the length of this focal chord is : (2019)
+\begin{enumerate}
+\item 25
+\item 22
+\item 24
+\item 20
+\end{enumerate}
+\end{enumerate}

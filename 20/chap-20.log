@@ -1,0 +1,1148 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.9)  22 FEB 2023 14:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**chap-20.tex
+(./chap-20.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen141
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count193
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count194
+\leftroot@=\count195
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count196
+\DOTSCASE@=\count197
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count198
+\c@MaxMatrixCols=\count199
+\dotsspace@=\muskip16
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
+\tag@help=\toks19
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
+\andhelp@=\toks20
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks21
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip52
+\RaggedLeftLeftskip=\skip53
+\RaggedRightLeftskip=\skip54
+\CenteringRightskip=\skip55
+\RaggedLeftRightskip=\skip56
+\RaggedRightRightskip=\skip57
+\CenteringParfillskip=\skip58
+\RaggedLeftParfillskip=\skip59
+\RaggedRightParfillskip=\skip60
+\JustifyingParfillskip=\skip61
+\CenteringParindent=\skip62
+\RaggedLeftParindent=\skip63
+\RaggedRightParindent=\skip64
+\JustifyingParindent=\skip65
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count271
+\lst@gtempboxa=\box52
+\lst@token=\toks23
+\lst@length=\count272
+\lst@currlwidth=\dimen150
+\lst@column=\count273
+\lst@pos=\count274
+\lst@lostspace=\dimen151
+\lst@width=\dimen152
+\lst@newlines=\count275
+\lst@lineno=\count276
+\lst@maxwidth=\dimen153
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count277
+\lst@skipnumbers=\count278
+\lst@framebox=\box53
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count279
+\mult@box=\box54
+\multicol@leftmargin=\dimen154
+\c@unbalance=\count280
+\c@collectmore=\count281
+\doublecol@number=\count282
+\multicoltolerance=\count283
+\multicolpretolerance=\count284
+\full@width=\dimen155
+\page@free=\dimen156
+\premulticols=\dimen157
+\postmulticols=\dimen158
+\multicolsep=\skip66
+\multicolbaselineskip=\skip67
+\partial@page=\box55
+\last@line=\box56
+\maxbalancingoverflow=\dimen159
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@firstbox=\box59
+\mult@gfirstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\c@minrows=\count285
+\c@columnbadness=\count286
+\c@finalcolumnbadness=\count287
+\last@try=\dimen160
+\multicolovershoot=\dimen161
+\multicolundershoot=\dimen162
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count288
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen163
+\ar@mcellbox=\box99
+\extrarowheight=\dimen164
+\NC@list=\toks24
+\extratabsurround=\skip68
+\backup@length=\skip69
+\ar@cellbox=\box100
+)
+\TX@col@width=\dimen165
+\TX@old@table=\dimen166
+\TX@old@col=\dimen167
+\TX@target=\dimen168
+\TX@delta=\dimen169
+\TX@cols=\count289
+\TX@ftn=\toks25
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
+)
+\c@matchleft=\count290
+\c@matchright=\count291
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count292
+\l__pdf_internal_box=\box101
+)
+(./chap-20.aux)
+\openout1 = `chap-20.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count293
+\scratchdimen=\dimen170
+\scratchbox=\box102
+\nofMPsegments=\count294
+\nofMParguments=\count295
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count296
+\MPscratchDim=\dimen171
+\MPnumerator=\count297
+\makeMPintoPDFobject=\count298
+\everyMPtoPDFconversion=\toks29
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count299
+
+Overfull \hbox (113.22125pt too wide) in paragraph at lines 44--45
+[]\OT1/cmr/m/n/12 The unit vec-tor per-pen-dicual to plane de-ter-mined by $\OM
+L/cmm/m/it/12 P\OT1/cmr/m/n/12 (1\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cm
+r/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2)\OML/cmm/m/it/12 ; Q\OT1/cmr/m/n
+/12 (2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^
+^@\OT1/cmr/m/n/12 1)\OML/cmm/m/it/12 andR\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \
+OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1)$is.....
+ []
+
+
+Overfull \hbox (23.48796pt too wide) in paragraph at lines 45--46
+[]\OT1/cmr/m/n/12 The area of whose ver-tices are $\OML/cmm/m/it/12 A\OT1/cmr/m
+/n/12 (1\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 1\OML/cmm/m/it/1
+2 ; \OT1/cmr/m/n/12 2)\OML/cmm/m/it/12 ; B\OT1/cmr/m/n/12 (2\OML/cmm/m/it/12 ; 
+\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 1)\OML/
+cmm/m/it/12 C\OT1/cmr/m/n/12 (3\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/
+m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2)$ is.....(1983) 
+ []
+
+
+Overfull \hbox (12.73686pt too wide) in paragraph at lines 53--54
+[]\OT1/cmr/m/n/12 If $[]\OML/cmm/m/it/12 ; []; []$ \OT1/cmr/m/n/12 are three no
+n-coplanar vec-tors, then-$[] + []$ =..........(1985) 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 106.
+
+[3] [4]
+Overfull \hbox (46.14864pt too wide) in paragraph at lines 156--158
+[]\OT1/cmr/m/n/12 If $[]\OML/cmm/m/it/12 ; []$ \OT1/cmr/m/n/12 and $[]$ are thr
+ee non copla-nar vec-tors, then $[] \OMS/cmsy/m/n/12 ^^A [] []$
+ []
+
+[5] [6] [7] [8] [9] [10] [11] [12]
+Overfull \hbox (71.85321pt too wide) in paragraph at lines 387--389
+[]\OT1/cmr/m/n/12 If $[]$ and $[]$ are vec-tors such that $\OMS/cmsy/m/n/12 j [
+] \OT1/cmr/m/n/12 + [] \OMS/cmsy/m/n/12 j\OT1/cmr/m/n/12 = []$ and $[] \OMS/cms
+y/m/n/12 ^^B [] []$\OT1/cmr/m/n/12 =$[] [] \OMS/cmsy/m/n/12 ^^B
+ []
+
+[13] [14] [15] [16] [17] [18] [19] [20]
+Overfull \hbox (47.20517pt too wide) in paragraph at lines 594--595
+\OT1/cmr/m/n/12 and O is it's cen-ter. Show that $[][] [] = [] []$
+ []
+
+[21]
+Overfull \hbox (46.45578pt too wide) in paragraph at lines 612--613
+[]\OT1/cmr/m/n/12 If A,B and C are vec-tors such that $\OMS/cmsy/m/n/12 j \OML/
+cmm/m/it/12 B \OMS/cmsy/m/n/12 j\OT1/cmr/m/n/12 =\OMS/cmsy/m/n/12 j \OML/cmm/m/
+it/12 C \OMS/cmsy/m/n/12 j$\OT1/cmr/m/n/12 . Prove that $[] [] \OMS/cmsy/m/n/12
+ ^^B
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 614--616
+
+ []
+
+
+Overfull \hbox (88.85742pt too wide) in paragraph at lines 627--628
+[]\OT1/cmr/m/n/12 Find the equa-tion of the plane pass-ing through the points $
+(2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0)\OML
+/cmm/m/it/12 ; \OT1/cmr/m/n/12 (5\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m
+/it/12 ; \OT1/cmr/m/n/12 1)\OML/cmm/m/it/12 and\OT1/cmr/m/n/12 (4\OML/cmm/m/it/
+12 ; \OT1/cmr/m/n/12 11)$. 
+ []
+
+[23] [24]
+<img.png, id=87, 301.125pt x 161.60374pt>
+File: img.png Graphic file (type png)
+<use img.png>
+Package pdftex.def Info: img.png  used on input line 654.
+(pdftex.def)             Requested size: 390.0pt x 209.32042pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 667--668
+
+ []
+
+[25 <./img.png>]
+Underfull \hbox (badness 10000) detected at line 683
+\OT1/cmr/m/n/12 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 683
+\OT1/cmr/m/n/12 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 683
+\OT1/cmr/m/n/12 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 683
+\OT1/cmr/m/n/12 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 683
+\OT1/cmr/m/n/12 3.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 683--683
+[]|[]$[] [][] [] \OML/cmm/m/it/12 dy\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 +
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 683
+\OT1/cmr/m/n/12 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 683
+\OT1/cmr/m/n/12 4.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 683--683
+[]|[]\OT1/cmr/m/n/12 If $[] \OML/cmm/m/it/12 A [] B [] C \OT1/cmr/m/n/12 +
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 683--683
+[] \OML/cmm/m/it/12 A [] B \OT1/cmr/m/n/12 = 1$,then the value
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 683
+\OT1/cmr/m/n/12 d)
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 683--684
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 699
+\OT1/cmr/m/n/12 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 699
+\OT1/cmr/m/n/12 a)
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 699--699
+[]|[]\OT1/cmr/m/n/12 the equa-tion rep-re-sent planes
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 699
+\OT1/cmr/m/n/12 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 699
+\OT1/cmr/m/n/12 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 699
+\OT1/cmr/m/n/12 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 699
+\OT1/cmr/m/n/12 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 699
+\OT1/cmr/m/n/12 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 699
+\OT1/cmr/m/n/12 d)
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 699--700
+[][] 
+ []
+
+[26]
+Underfull \hbox (badness 10000) detected at line 716
+\OT1/cmr/m/n/12 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 716
+\OT1/cmr/m/n/12 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 716
+\OT1/cmr/m/n/12 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 716
+\OT1/cmr/m/n/12 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 716
+\OT1/cmr/m/n/12 3.
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 716--716
+[]|[]\OT1/cmr/m/n/12 Volume of the par-al-lelop-iped
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 716
+\OT1/cmr/m/n/12 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 716
+\OT1/cmr/m/n/12 4.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 716--716
+[]|[]\OT1/cmr/m/n/12 Angle be-teen vec-tor $[]\OML/cmm/m/it/12 and[]$
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 716--716
+\OT1/cmr/m/n/12 where $[]\OML/cmm/m/it/12 ; []and[]$ \OT1/cmr/m/n/12 are unit v
+ec-tors
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 716
+\OT1/cmr/m/n/12 d)
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 716--717
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 733
+\OT1/cmr/m/n/12 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 733
+\OT1/cmr/m/n/12 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 733
+\OT1/cmr/m/n/12 2.
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 733--733
+[]|[]\OT1/cmr/m/n/12 Value(s) of k for which the
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 733
+\OT1/cmr/m/n/12 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 733
+\OT1/cmr/m/n/12 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 733
+\OT1/cmr/m/n/12 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 733
+\OT1/cmr/m/n/12 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 733
+\OT1/cmr/m/n/12 d)
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 733--734
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 751
+\OT1/cmr/m/n/12 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 751
+\OT1/cmr/m/n/12 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 751
+\OT1/cmr/m/n/12 2.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 751--751
+[]|[]\OT1/cmr/m/n/12 The value of x sat-is-fy-ing
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 751--751
+[][] [] \OMS/cmsy/m/n/12 ^^@ [][] [] \OT1/cmr/m/n/12 =
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 751
+\OT1/cmr/m/n/12 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 751
+\OT1/cmr/m/n/12 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 751
+\OT1/cmr/m/n/12 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 751
+\OT1/cmr/m/n/12 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 751
+\OT1/cmr/m/n/12 d)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 751
+\OT1/cmr/m/n/12 5.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 751
+\OT1/cmr/m/n/12 e)
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 751--752
+[][] 
+ []
+
+[27]
+Underfull \hbox (badness 10000) detected at line 770
+\OT1/cmr/m/n/12 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 770
+\OT1/cmr/m/n/12 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 770
+\OT1/cmr/m/n/12 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 770
+\OT1/cmr/m/n/12 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 770
+\OT1/cmr/m/n/12 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 770
+\OT1/cmr/m/n/12 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 770
+\OT1/cmr/m/n/12 4.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 770--770
+[]|[]\OT1/cmr/m/n/12 The max-i-mum vaalue of
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 770
+\OT1/cmr/m/n/12 d)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 770
+\OT1/cmr/m/n/12 5.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 770
+\OT1/cmr/m/n/12 e)
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 770--771
+[][] 
+ []
+
+[28]
+Underfull \hbox (badness 10000) detected at line 788
+\OT1/cmr/m/n/12 1.
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 788--788
+[]|[]\OT1/cmr/m/n/12 Volume of par-al-lelop-iped de-
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 788--788
+\OT1/cmr/m/n/12 ter-mined by vec-tors $[]\OML/cmm/m/it/12 ; []$ \OT1/cmr/m/n/12
+ and $[]$
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 788--788
+\OT1/cmr/m/n/12 is 2.Then the vol-ume of par-al-
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 788--788
+\OT1/cmr/m/n/12 lelop-iped de-ter-mined by vec-tors
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 788
+\OT1/cmr/m/n/12 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 788
+\OT1/cmr/m/n/12 2.
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 788--788
+[]|[]\OT1/cmr/m/n/12 Volume of par-al-lelop-iped de-
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 788--788
+\OT1/cmr/m/n/12 ter-mined by vec-tors $[]\OML/cmm/m/it/12 ; []$ \OT1/cmr/m/n/12
+ and $[]$
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 788--788
+\OT1/cmr/m/n/12 is 5.Then the vol-ume of par-al-
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 788--788
+\OT1/cmr/m/n/12 lelop-iped de-ter-mined by vec-tors
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 788
+\OT1/cmr/m/n/12 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 788
+\OT1/cmr/m/n/12 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 788
+\OT1/cmr/m/n/12 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 788
+\OT1/cmr/m/n/12 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 788
+\OT1/cmr/m/n/12 d)
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 788--789
+[][] 
+ []
+
+[29]
+Underfull \hbox (badness 10000) detected at line 818
+\OT1/cmr/m/n/12 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 818
+\OT1/cmr/m/n/12 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 818
+\OT1/cmr/m/n/12 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 818
+\OT1/cmr/m/n/12 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 818
+\OT1/cmr/m/n/12 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 818
+\OT1/cmr/m/n/12 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 818
+\OT1/cmr/m/n/12 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 818
+\OT1/cmr/m/n/12 d)
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 818--819
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 843
+\OT1/cmr/m/n/12 1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 843--843
+[] [] \OML/cmm/m/it/12 ; x \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12
+ ^^F[]$\OT1/cmr/m/n/12 . Then
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 843
+\OT1/cmr/m/n/12 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 843
+\OT1/cmr/m/n/12 2.
+ []
+
+
+Overfull \hbox (74.54192pt too wide) in paragraph at lines 843--843
+[] [][] [] [] []$\OT1/cmr/m/n/12 =$[] [][] [] [] []$,then
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 843
+\OT1/cmr/m/n/12 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 843
+\OT1/cmr/m/n/12 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 843
+\OT1/cmr/m/n/12 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 843
+\OT1/cmr/m/n/12 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 843
+\OT1/cmr/m/n/12 d)
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 843--852
+[][]
+ []
+
+[30]
+Underfull \hbox (badness 10000) detected at line 874
+\OT1/cmr/m/n/12 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 874
+\OT1/cmr/m/n/12 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 874
+\OT1/cmr/m/n/12 2.
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 874--874
+\OT1/cmr/m/n/12 such that the func-tion $\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OM
+L/cmm/m/it/12 x\OT1/cmr/m/n/12 ) =
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 874
+\OT1/cmr/m/n/12 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 874
+\OT1/cmr/m/n/12 3.
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 874--874
+[]|[]\OT1/cmr/m/n/12 Let $\OML/cmm/m/it/12 ^^V \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/1
+2 = 1$ be a com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--874
+\OT1/cmr/m/n/12 plex cube root of unity.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--874
+\OT1/cmr/m/n/12 If $[][] +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--874
+[][] \OT1/cmr/m/n/12 +
+ []
+
+
+Underfull \hbox (badness 4144) in paragraph at lines 874--874
+[][] \OT1/cmr/m/n/12 = 0$ then
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 874
+\OT1/cmr/m/n/12 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 874
+\OT1/cmr/m/n/12 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 874
+\OT1/cmr/m/n/12 d)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 874
+\OT1/cmr/m/n/12 5.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 874
+\OT1/cmr/m/n/12 e)
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 874--875
+[][] 
+ []
+
+[31]
+Underfull \hbox (badness 10000) detected at line 890
+\OT1/cmr/m/n/12 1.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 890
+\OT1/cmr/m/n/12 a)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 890
+\OT1/cmr/m/n/12 2.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 890
+\OT1/cmr/m/n/12 b)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 890
+\OT1/cmr/m/n/12 3.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 890
+\OT1/cmr/m/n/12 c)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 890
+\OT1/cmr/m/n/12 4.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 890
+\OT1/cmr/m/n/12 d)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 890
+\OT1/cmr/m/n/12 5.
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 890
+\OT1/cmr/m/n/12 e)
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 890--891
+[][] 
+ []
+
+[32] [33] [34] [35] [36] [37] [38] [39] [40]
+Overfull \hbox (12.83429pt too wide) in paragraph at lines 1107--1109
+[]\OT1/cmr/m/n/12 A tetra-he-dron has ver-tices at$\OML/cmm/m/it/12 O\OT1/cmr/m
+/n/12 (0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 
+0)\OML/cmm/m/it/12 ; A\OT1/cmr/m/n/12 (1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2\OM
+L/cmm/m/it/12 ; \OT1/cmr/m/n/12 1)\OML/cmm/m/it/12 B\OT1/cmr/m/n/12 (2\OML/cmm/
+m/it/12 ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 3)$ and $\OML/cmm
+/m/it/12 C\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 1\OML/cmm/m/it/1
+2 ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2)$.
+ []
+
+[41] [42] [43] [44] [45]
+Overfull \hbox (56.3306pt too wide) in paragraph at lines 1266--1277
+[]\OT1/cmr/m/n/12 If $[]\OML/cmm/m/it/12 ; []; []$ \OT1/cmr/m/n/12 are non-copl
+anar vec-tors and $\OML/cmm/m/it/12 ^^U$ \OT1/cmr/m/n/12 is real num-ber then $
+[]$
+ []
+
+[46] [47] [48] [49] [50] [51] [52] [53]
+
+LaTeX Warning: Command \l invalid in math mode on input line 1535.
+
+[54] [55] [56]
+
+LaTeX Warning: Command \L invalid in math mode on input line 1637.
+
+
+LaTeX Warning: Command \L invalid in math mode on input line 1637.
+
+[57] [58] [59] (./chap-20.aux) ) 
+Here is how much of TeX's memory you used:
+ 4366 strings out of 478287
+ 69683 string characters out of 5849289
+ 377863 words of memory out of 5000000
+ 22520 multiletter control sequences out of 15000+600000
+ 473889 words of font info for 44 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,16n,67p,837b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on chap-20.pdf (59 pages, 274279 bytes).
+PDF statistics:
+ 253 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
