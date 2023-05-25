@@ -1,0 +1,474 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{ragged2e}
+\usepackage{listings}
+\newenvironment{matchtabular}{%
+  \setcounter{matchleft}{0}%
+  \setcounter{matchright}{0}%
+  \tabularx{\textwidth}{%
+    >{\leavevmode\hbox to 1.5em{\stepcounter{matchleft}\arabic{matchleft}.}}X%
+    >{\leavevmode\hbox to 1.5em{\stepcounter{matchright}\alph{matchright})}}X%
+    }%
+}{\endtabularx}
+
+%\usepackage{blindtext}
+\usepackage{multicol}
+\title{Multicols Demo}
+\setlength{\columnsep}{3cm}
+\usepackage{tabularx}
+ \usepackage[utf8]{inputenc}
+\newcounter{matchleft}
+\newcounter{matchright}
+
+\newcommand*{\vv}[1]{\vec}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\lbrak}[1]{\ensuremath{\left(#1\right.}}
+\providecommand{\rbrak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\sbrak}[1]{\ensuremath{{}\left[#1\right]}}
+%\let\vec\mathbf
+
+\begin{document}
+\begin{center}
+\textbf\large{CHAPTER-13 \\ Properties of Triangle}
+
+\end{center}
+\section*{Section-A    [JEE Advanced/IIT-JEE]}
+\section*{A    :  Fill in the Blanks}
+\begin{enumerate}
+\item In a $\triangle ABC$ $\angle A=90^\circ$ and AD is altitude complete the relation
+$\frac{BD}{BA}=\frac{AB}{(....)}$ (1980)
+\item ABC is a triangle, P is a point on AB, and Q is point on AC
+such that $\angle AQP= \angle ABC$. Complete the relation
+$\frac{area of \triangle APQ}{area of \triangle ABC}=\frac{(...)}{AC^2}$ 
+(1980)
+\item ABC is a triangle with $\angle B$ greater than $\angle C$. D and E are points on BC such that AD is perpendicular to BC and AE is the bisector of angle A.Complete the relation $\angle DAE\frac{1}{2}[()-\angle C]$ (1980)
+\item The set of all real numbers $a$ such that $a^2+ 2a$, $2a +3$ and 
+$a^2+3a+8$ are the sides of a triangle is ....... (1985)
+\item In a triangle ABC, if $\cot A, \cot B, \cot C$ are in A.P., then
+$a^2,b^2,c^2$, are in... ..progression. (1985)
+\item  A polygon of nine sides, each of length 2, is inscribed in a circle. The radius of the circle is ...........(1987)
+\item If the angles of a triangle are $30^\circ$ and $45^\circ$ and the included side is $(\sqrt{3} +1)$cms, then the area of the triangle is.........(1988)
+\item If in a triangle ABC, $\frac{2\cos A}{a}+\frac{\cos B}{b}+\frac{2\cos C}{c}=\frac{a}{bc}+\frac{b}{ca}$, then the value of the angle A is ..........degrees (1993)
+\item In a triangle ABC, AD is the altitude from A. Given $b>c$,
+$\angle C=23^\circ $ and $AD=\frac{abc}{b^2-c^2}$ then $\angle B$=........(1994)
+\item A circle is inscribed in an equilateral triangle of side $a$. The
+area of any square inscribed in this circle is .......(1994)
+\item ina triangle ABC, $a:b:c=4:5:6$. The ratio of the radius of
+the circumcircle to that of the incircle is........(1996)
+\end{enumerate}
+
+\section*{C  :   MCQ'S with One Correct Answer}
+
+\begin{enumerate}
+\item If the biscctor of the angle P of a triangle PA meets OR in S, then (1979)
+\begin{enumerate}
+\item QS=SR
+\item QS:SR=PR:PQ
+\item QS:SR=PQ:PR
+\item None of these 
+\end{enumerate}
+\item From the top of a light-house 60 metres high with its base at the sea-level, the angle of depression of a boat is $15^\circ$, The distance of the boat from the foot of the light house is (1983)
+\begin{enumerate}
+\item $\sbrak{\frac{\sqrt{3}-1}{\sqrt{3}+1}}60 meters$
+\item $\sbrak{\frac{\sqrt{3}+1}{\sqrt{3}-1}}60 .meters$
+\item $\sbrak{\frac{\sqrt{3}+1}{\sqrt{3}-1}}^2 meters$
+\item None of these 
+\end{enumerate}
+\item In a triangle ABC, angle A is greater than angle B. If the measures of angles A and B satisfy the equation $3\sin x-4\sin^3x-k=0,0<k<1$, then the measure of angle C is (1990)
+\begin{enumerate}
+\item  $\frac{\pi}{3}$
+\item  $\frac{\pi}{2}$
+\item  $\frac{2\pi}{3}$
+\item  $\frac{5\pi}{6}$
+\end{enumerate}
+\item If the lengths of the sides of triangle are 3, 5, 7 then the largest angle of the triangle is (1994)
+\begin{enumerate}
+\item $\frac{\pi}{2}$
+\item  $\frac{5\pi}{6}$
+\item  $\frac{2\pi}{3}$
+\item  $\frac{3\pi}{4}$
+\end{enumerate}
+\item  In a triangle ABC, $\angle B=\frac{\pi}{3}$ and $\angle C= \frac{\pi}{4}$ Let D divide BC internally in the ratio $1:3$ then $\frac{\sin \angle BAD}{\sin \angle CAD}$ is equal to (1995)
+\begin{enumerate}
+\item $\frac{1}{\sqrt{6}}$
+\item $\frac{1}{3}$
+\item $\frac{1}{\sqrt{3}}$
+\item $\sqrt{\frac{2}{3}}$
+\end{enumerate}
+\item  In a triangle ABC, $2ac\sin\frac{1}{2}(A-B+C)$ (2000)
+\begin{enumerate}
+\item $a^2+^2-c^2$
+\item $c^2+a^2-b^2$
+\item $b^2-c^2-a^2$
+\item $c^2-a^2-b^2$
+\end{enumerate}
+\item  In a triangle ABC, let $\angle C=\frac{\pi}{2}$ . If r is the inradius and R is the circumradius of the triangle, then 2(r+ R) is equal to (2000)
+\begin{enumerate}
+\item a+b
+\item b+c
+\item c+a
+\item a+b+c
+\end{enumerate}
+\item A pole stands vertically inside a triangular park $\triangle ABC$. If the angle of elevation of the top of the pole from each corner ofthe park is same, then in $\triangle ABC$ the foot of the pole is at the (2000)
+\begin{enumerate}
+\item centroid
+\item circumcenter
+\item incenter
+\item orthocenter
+\end{enumerate}
+\item A man from the top of a 100 metres high tower sees a car moving towards the tower at an angle of depression of $30^\circ$ After some time, the angle of depression becomes $60^\circ$. The distance (in metres) travelled by the car during this time is (2001)
+\begin{enumerate}
+\item $100\sqrt{3}$
+\item $200\sqrt[3]{3}$
+\item $100\sqrt[3]{3}$
+\item $200\sqrt{3}$
+\end{enumerate}
+\item Which of the following pieces of data does NOT uniquely determine an acute-angled triangle ABC (R being the radius of the circumcircle)? (2002)
+\begin{enumerate}
+\item a,$\sin A,\sin B$
+\item a,b,c
+\item a,$\sin B$,R
+\item a,$\sin A$,R
+\end{enumerate}
+\item If the angles of a triangle are in the ratio $4:1:1$, then the ratio of the longest side to the perimeter is (2003)
+\begin{enumerate}
+\item $\sqrt{3}:(2+\sqrt{3})$
+\item $1:6$
+\item $1:2+\sqrt{3}$
+\item $2:3$
+\end{enumerate}
+\item The sides of a triangle are in the ratio $1:\sqrt{3}:2$, then the angles of the triangie are in the ratio (2004)
+\begin{enumerate}
+\item $1:3:5$
+\item $2:3:4$
+\item $3:2:1$
+\item $1:2:3$
+\end{enumerate}
+\item In an equilateral triangle, 3 coins of radii 1 unit each are kept so that they touch each other and also the sides of the triangle. Area of the triangle is  (2005)
+\pagebreak
+\begin{figure}[!h]
+\centering
+  \includegraphics[width=5cm, height=3cm]{/home/sandhya/Pictures/image (2).png}
+ \caption{}
+ \label{}
+ \end{figure}
+
+\begin{enumerate}
+\item $4+\sqrt[2]{3}$
+\item $6+\sqrt[2]{3}$
+\item $12+\frac{\sqrt[7]{3}}{4}$
+\item $3+\frac{\sqrt[7]{3}}{4}$
+\end{enumerate}
+\item In a triangle ABC, a, b, c are the lengths of its sides and A, B,C are the angles of triangle ABC. The correct relation is  (2005)
+\begin{enumerate}
+\item  $(b-c)\sin\sbrak{\frac{B-C}{2}}=a\cos\frac{A}{2}$
+\item  $(b-c)a\cos\sbrak{\frac{A}{2}}=\sin\sbrak{\frac{B-C}{2}}$
+\item  $(b+c)\sin\sbrak{\frac{B+C}{2}}=a\cos\frac{A}{2}$
+\item  $(b-c)a\cos\sbrak{\frac{A}{2}}=\sin\sbrak{\frac{B+C}{2}}$
+\end{enumerate}
+\item One angle of an isosceles A is $120^\circ$ and radius of its incircle=$\sqrt{3}$. Then the area of the triangle in sq. units is (2006)
+\begin{enumerate}
+\item $7+\sqrt[12]{3}$
+\item $12-\sqrt[7]{3}$
+\item $12+\sqrt[7]{3}$
+\item $4\pi$
+\end{enumerate}
+\item Let ABCD be a quadrilateral with area 18, with side AB parallel to the side CD and 2AB=CD. Let AD be perpendicular to AB and CD. If a circle is drawn inside the quadrilateral ABCD touching all the sides, then its radius is (2007)
+\begin{enumerate}
+\item 3
+\item 2
+\item $\frac{3}{2}$
+\item 1
+\end{enumerate}
+\item If the angles A, B and C of a triangle are in an arithmetic progression and if a, b and c denote the lengths of the sides opposite to A, B and C respectively, then the value of the expression $\frac{a}{c}\sin 2C+\frac{c}{a}\cos 2A$ is (2010)
+\begin{enumerate}
+\item $\frac{1}{2}$
+\item $\frac{\sqrt{3}}{2}$
+\item 1
+\item $\sqrt{3}$
+\end{enumerate}
+\item Let PQR be a triangle of area $\triangle$ with $a=2,b=\frac{7}{2}$ and $c=\frac{5}{2}$ where a, b, and c are the lengths of the sides of the triangle opposite to the angles at P Q and R respectively. Then $\frac{2\sin P-\sin 2P}{2\sin P+\sin 2P}$ equals (2012)
+\begin{enumerate}
+\item $\frac{3}{4\triangle}$
+\item $\frac{45}{4\triangle}$
+\item $\sbrak{\frac{3}{4\triangle}}^2$
+\item $\sbrak{\frac{45}{4\triangle}}^2$
+\end{enumerate}
+\item In a triangle the sum of two sides is $x$ and the product of the same sides is $y$. If $x^2-c^2=y$, where c is the third side of the triangle, then the ratio of the in radius to the circum-radius to the triangle is (2012)
+\begin{enumerate}
+\item  $\frac{3y}{2x(x+c)}$
+\item  $\frac{3y}{2c(x+c)}$
+\item  $\frac{3y}{4x(x+c)}$
+\item  $\frac{3y}{4c(x+c)}$
+\end{enumerate}
+\end{enumerate}
+
+
+\section*{D  :  MCQ'S with One or More Than One Correct Answer}
+
+\begin{enumerate}
+\item  There exists a triangle ABC satisfying the conditions (1986)
+\begin{enumerate}
+\item $B \sin A=a,A<\frac{\pi}{2}$
+\item $B \sin A>a,A>\frac{\pi}{2}$
+\item $B \sin A>a,A<\frac{\pi}{2}$
+\item $B \sin A<a,A<\frac{\pi}{2},b>a$
+\item $B \sin A<a,A>\frac{\pi}{2},b=a$
+\end{enumerate}
+\item In a triangle, the lengths of the two larger sides are 10 and 9 respectively. If the angles are in AP. Then the length of the third side can be (1987)
+\begin{enumerate}
+\item $5-\sqrt{6}$
+\item $\sqrt[3]{3}$
+\item 5
+\item $5+\sqrt{6}$
+\item none
+\end{enumerate}
+\item If in a triangle PQR, $\sin P,\sin Q,\sin R$ are in A.P., then (1998)
+\begin{enumerate}
+\item  the altitudes are in A.P. 
+\item the altitudes are in H.P.
+\item the medians are in GP. 
+\item the medians are in A.P.
+\end{enumerate}
+\item Let $A_0,A_1,A_2,A_3,A_4$ be a regular hexagon inscribed in a circle of unit radius. Then the product of the lengths of the line segments $A_0A_1,A_0A_2$ and $A_0A_4$ is (1998)
+\begin{enumerate}
+\item $\frac{3}{4}$
+\item $\sqrt[3]{3}$
+\item 3 
+\item $\frac{\sqrt[3]{3}}{2}$
+\end{enumerate}
+\item In $\triangle ABC$, internal angle bisector of $\angle A$ meets side BC in D.
+DE $\perp AD$ meets AC in E and AB in F. Then (2006)
+\begin{enumerate}
+\item AE is H.M of b $\&$ c
+\item $AD=\frac{2bc}{b+c}\cos \frac{A}{2}$
+\item $EF=\frac{2bc}{b+c}\sin \frac{A}{2}$
+\item $\triangle AEF$is isosceles
+\end{enumerate}
+\item Let ABC be a triangle such that $\angle ACB=\frac{\pi}{6}$ and let $a,b$ and  $c$ denote the lengths of the sides opposite to A, B and C respectively. The value(s) of $x$ for which $a=x^2+x+1,b=x-1$ and $c=2x+1$ is (are)(2010)
+\begin{enumerate}
+\item $-(2+\sqrt{3})$
+\item $1+\sqrt{3}$
+\item $2+\sqrt{3}$
+\item $\sqrt[4]{3}$
+\end{enumerate}
+\item In a triangle POR, P is the largest angle and cos $P=\frac{1}{3}$. Further the incircle of the triangle touches the sides PO, OR and RP at N, L and M respectively, such that the lengths of PN, QL and RM are consecutive even integers. Then possible length(s) of the side(s) of the triangle is (are)(2013)
+\begin{enumerate}
+\item 16
+\item 18
+\item 24
+\item 22
+\end{enumerate}
+\item In a triangle XYZ, let x,y,z be the lengths of sides opposite to the angles X,Y,Z, respectively $2s=x+y+z$. If $\frac{s-x}{4}=\frac{s-y}{3}=\frac{s-z}{2}$ and area of incircle of the triangle XYZ is $\frac{8\pi}{3}$ then,(2016)
+\begin{enumerate}
+\item area of the triangle XYZ is $\sqrt[6]{6}$
+\item the radius of circumcircle of the triangle XYZ is $\frac{35}{6}\sqrt{6}$
+\item $\sin\frac{X}{2}\sin\frac{Y}{2}\sin\frac{Z}{2}=\frac{4}{35}$
+\item $\sin^2\sbrak{\frac{X+Y}{2}}=\frac{3}{5}$
+\end{enumerate}
+\item In a triangle POR, let $PQR=30^\circ$ and the sides PQ and QR have lengths $\sqrt[10]{3}$ and 10, respectively. Then, which of the following statement(s) is (are) TRUE? (2018)
+\begin{enumerate}
+\item $\angle QPR=45^\circ$
+\item the area of the triangle PQR is $\frac{25}{3}$ and $\angle QRP=120^\circ$
+\item The radius of the incircle of the triangle PQR is $\sqrt[10]{3}-15$
+\item The area of the circumcircle of the triangle PQR is $100\pi$
+\end{enumerate}
+\item In a non-right angled triangle $\triangle PQR$ , let p,q,r denote the lengths of the sides opposite to the angles at P, Q, R respectively The median from R meets the side PQ at S, the perpendicular from P meets the side QR at E, RS and PE intersect at O. If $p=\sqrt{3}$,q=1 and the radius of the circumcircle of the $\triangle PQR$ equals 1, then which of the following options is/are correct? 
+\begin{enumerate}
+\item Radius of incirecle of $\triangle PQR=\frac{\sqrt{3}}{2}(2-\sqrt{3})$
+\item Area of $\triangle SOE=\frac{\sqrt{3}}{12}$
+\item Length of $OE=\frac{1}{6}$
+\item Length of $RS=\frac{\sqrt{7}}{2}$
+\end{enumerate}
+\end{enumerate}
+
+\section*{E  :  Subjective Problems}
+
+\begin{enumerate}
+\item A triangle ABC has sides AB=AC=5 cm and BC=6 cm Triangle $A^{\prime} B^{\prime} C^{\prime}$ is the reflection of the triangle $A^{\prime} B^{\prime} C^{\prime}$ in a line parallel to $A^{\prime} B^{\prime}$ placed at a distance 2 cm from AB, outside the triangle ABC. Triangle $A^{\prime\prime} B^{\prime\prime} C^{\prime\prime}$ is the reflection of the triangle $A^{\prime} B^{\prime} C^{\prime}$ in a line parallel to $B^\prime C^\prime$ placed at a distance of 2cm from $B^{\prime} C^{\prime}$ outside the triangle $A^{\prime} B^{\prime} C^{\prime}$. Find the distance between A and $A^{\prime\prime}$ (1978)
+\item 
+\begin{enumerate}
+\item If a circle is inscribed in a right angled triangle ABC with the right angle at B, show that the diameter of the circle is equal to AB+BC-AC.
+\item  If a triangle is inscribed in a circle, then the product of any two sides of the triangle is equal to the product of the diameter and the perpendicular distance of the third side from the opposite vertex. Prove the above statement. (1979)
+\end{enumerate}
+\item 
+\begin{enumerate}
+\item A balloon is observed simultaneously from three points A, B and C on a straight road directly beneath it. The angular elevation at B is twice that at A and the angular
+elevation at C is thrice that at A. Ifthe distance between A and B is a and the distance between B and C is b, find the height of the balloon in terms of a and b.
+\item  Find the area of the smaller part of a disc of radius 10cm, cut off by a chord AB which subtends an angle of $22\frac{1}{2}^\circ$ at the circumference. (1979)
+\end{enumerate}
+\item  ABC is a triangle. D is the middle point of BC. If AD is perpendicular to AC, then prove that $\cos A\cos C=\frac{2(c^2-a^2)}{3ac}$ (1980)
+\item ABC is a triangle with AB AC. D is any point on the side BC. E and F are points on the side AB and AC, respectively, such that DE is parallel to AC, and DF is parallel to AB. Prove that\\
+ $DF+FA+AE+ED=AB+AC$ (1980)
+\item 
+\begin{enumerate}
+\item PQ is a vertical tower. P is the foot and Q is the top of the tower. A, B, C are three points in the horizontal plane through P. The angles of elevation of Q from A
+B,C are equal, and each is equal to 0. The sides of the triangle ABC are a, b, c; and the area of the triangle ABC is A. Show that the height of the tower is $\frac{ABC\tan \theta}{4\triangle}$
+\item B is a vertical pole. The end A is on the level ground. C is the middle point of AB. P is a point on the level ground. The portion CB subtends an angle $\beta$ at P. If AP=nAB, then show that $\tan\beta=\frac{n}{2n^2+1}$ (1980)
+\end{enumerate}
+\item Let the angles A, B, C of a triangle ABC be in A.P. and let $b:c=\sqrt{3}:\sqrt{2}$. Find the angle A. (1981)
+\item A vertical pole stands at a point Q on a horizontal ground. A and B are points on the ground, d meters apart. The pole subtends angles $\alpha$ and $\beta$ at A and B respectively. AB subtends an angle $\gamma$ at Q. Find the height of the pole (1982)
+\item Four ships A, B, C and D are at sea in the following relative positions :B is on the straight line segment AC, B is due North of D and D is due west of C. The distance between B and D is 2 km. $\angle BDA=40^\circ,\angle BCD=25^\circ$. What is the distance between A and D? [Take $\sin 25^\circ=0.423$] (1983)
+\item The ex-radii $r_1,r_2,r_3$ of $\triangle ABC$ are in H.P. Show that its sides a, b, c are in A.P. (1983)
+\item For a triangle ABC it is given that $\cos A+\cos B+\cos C=\frac{3}{2}$. Prove that the triangle is equilateral. (1984)
+\item With usual notation, if in a triangle ABC; $\frac{b+c}{11}=\frac{c+a}{12}=\frac{a+b}{13}$ then prove that $\frac{\cos A}{7}=\frac{\cos B}{19}=\frac{\cos C}{25}$ (1984)
+\item A ladder rests against a wall at an angle $\alpha$ to the horizontal. Its foot is pulled away from the wall through a distance a, so that it slides a distance b down the wall making an angle $\beta$ with the horizontal. Show that $a=b\tan(\alpha+\beta)$ (1985)
+\item In a triangle ABC, the median to the side BC is of length $\frac{1}{\sqrt{11-\sqrt[6]{3}}}$ and it divides the angle A into angles $30^\circ$ and $45^\circ$. Find the length ofthe side BC. (1985)
+\item Ifin a triangle ABC, $\cos A\cos B+\sin A\sin B \sin C=1$, Show that $a:b:c=1:1:\sqrt{2}$ (1986)
+\item A sign-post in the form of an isosceles triangle ABC mounted on a pole of height $h$ fixed to the ground. The base BC of the triangle is parallel to the ground. A man standing on the ground at a distance d from the sign-post finds that the top vertex A of the triangle subtends an angle $\beta$ and either of the other two vertices subtends the same angle at his feet. Find the area of the triangle. (1988)
+\item ABC is a triangular park with AB=AC=100 m. A television tower stands at the midpoint of BC. The angles of elevation of the top of the tower at A, B, C are $45^\circ,60^\circ,60^\circ$, respectively. Find the height of the tower.(1989)
+\item  A vertical tower PQ stands at a point P. Points A and B are located to the South and East of P respectively. M is the mid point of AB. PAM is an equilateral triangle; and N is the focus of the perpendicular from P on AB. Let AN=20 metres and the angle of elevation of the top of the tower at N is $\tan^{-1}(2)$. Determine the height of the tower and the angles of elevation of the top of the tower at A and B. (1990)
+\item The sides of a triangle are three consecutive natural numbers and its largest angle is twice the smallest one. Determine the sides of the triangle. (1990)
+\item In a triangle of base $a$ the ratio of the other two sides is $r(<1)$. Show that the altitude of the triangle is less than of equals to $\frac{ar}{1-r^2}$ (1991)
+\item A man notices two objects in a straight line due west. After walking a distance c due north he observes that the objects subtend an angle $\alpha$ at his eye; and, after walking a further distance 2c due north, an angle $\beta$. Show that the distance between the objects is $\frac{8c}{3\cot \beta-\cot \alpha}$ the height of the man is being ignored. (1991)
+\item Three circles touch the one another externally. The tangent at their point of contact meet at a point whose distance from a point of contanct is 4. Find the ratio of the product of the radii to the sum of the radii of the circles. (1992)
+\item An observer at O notices that the angle of elevation of the top of a tower is $30^\circ$. The line joining O to the base of the tower makes an angle of $\tan^{-1} (1/\sqrt{2})$ with the North and is inclined Eastwards. The observer travels a distance of 300 meters towards the North to a point A and finds the tower to his East. The angle of elevation on top of the tower at A is $\phi$, Find $\phi$ and the height of the tower (1993)
+\item A tower AB leans towards west making an angle $\alpha$ with the vertical. The angular elevation of B, the top most point of the tower is $\beta$ as observed from a point C due west of A at distance $d$ from A. If the angular elevation of B from a point due east of C at a distance $2d$ from C is $\gamma$, then prove that $2\tan \alpha=-\cot \beta + \cot \gamma$. (1994)
+\item Let $A_1,A_2,.......,A_n$ be the vertices of an n-sided regular polygon such that 
+$\frac{1}{A_1A_2}=\frac{1}{A_1A_3}+\frac{1}{A_1A_4}$ Find the value of n (1995)
+\item Consider the following statements concerning a triangle ABC\\
+(i) the sides a, b, c and area A are rational.\\
+(ii) a,$\tan \frac{A}{2},\tan \frac{B}{2}$ are rational.\\
+(iii) a,$\sin A,\sin B\sin C$ are rational.\\
+Prove that $(i)\Rightarrow(ii)\Rightarrow(iii)\Rightarrow(i)$  (1994)
+\item A bird flies in a circle on a horizontal plane. An observer stands at a point on the ground. Suppose $60^\circ$ and $30^\circ$ are the maximum and the minimum angles of elevation of the bird and that they occur when the bird is at the points P and O respectively on its path. Let $\theta$ be the angle of elevation of the bird when it is a point on the arc of the circle exactly midway between P and Q. Find the numerical value of $\tan^2\theta$ .(Assume that the observer is not inside the vertical projection of the path of the bird.) (1998)
+\item Prove that a triangle ABC is equilateral if and only if $\tan A+\tan B+\tan C =\sqrt[3]{3}$.(1998)
+\item Let ABC be a triangle having O and 1 as its circumcenter and in centre respectively. If R and r are the circumradius and the inradius, respectively, then prove that $(IO)^2=R^2-2Rr$. Further show that the triangle BIO is a right-angled triangle
+if and only if $b$ is arithmetic mean of $a$ and $c$. (1999)
+\item Let ABC be a triangle with incentre I and inradius r. Let D,E,F be the feet of the perpendiculars from I to the sides BC, CA and AB respectively. If $r_1,r_2$ and $r_3$; are the radii of circles inscribed in the quadrilaterals AFIE, BDIF and CElD respecitvely, prove that $\frac{r_1}{r-r_1}+\frac{r_2}{r-r_2}+\frac{r_3}{r-r_3}=\frac{r_1r_2r_3}{(r-r_1)(r-r_2)(r-r_3)}$ (2000)
+\item If $\triangle$ is the area of a triangle with side lengths a, b, c, then show that $\triangle<\frac{1}{4}\sqrt{(a+b+c)abc}$ . Also show that the equality occurs in the above inequality if and only if $a=b=c$. (2001)
+\item If $I_n$, is the area of $n$ sided regular polygon inscribed in a circle of unit radius and $O_n$, be the area of the polygon circumscribing the given circle, prove that $I_n=\frac{O_n}{2}\sbrak{1+\sqrt{1-\sbrak{\frac{2I_n}{n}^2}}}$. (2003)
+
+\end{enumerte}
+\section*{I    : Integer Value Correct Type }
+
+\begin{enumerate}
+\item Let ABC and $ABC^\prime$ be two non-congruent triangles with sides $AB=4, AC=AC^\prime=2\sqrt{2}$ and angle $B=30^\circ$. The absolute value of the difference between the areas of these triangles is (2009)
+\item  Consider a triangle ABC and let a, b and c denote the lengths of the sides opposite to vertices A,B and C respectively. Suppose $a=6,b=10$ and the area of the triangle is $15\sqrt{3}$, if $\angle ACB$ is obtuse and if r denotes the radius of
+the incircle of the triangle, then $r^2$ is equal to (2010)
+\end{enumerate}
+
+
+
+\section*{Section-B    [JEE Mains /AIEEE]}
+
+\begin{enumerate}
+\item The sides ofa triangle are $3x+4y,4x+3y$ and $5+5y$ where $x,y>0$ then the triangle is (2002)
+\begin{enumerate}
+\item Right angled 
+\item Obtuse angled 
+\item equilateral
+\item none of these
+\end{enumerate}
+\item In a triangle with sides $a,b,c,r_1>r_2>r_3$, (which are the ex-radii) then (2002)
+\begin{enumerate}
+\item $a>b>c$
+\item $a<b<c$
+\item $a>b$ and $b<c$
+\item $a<b$ and $b>c$
+\end{enumerate}
+\item The sum of the radii of inscribed and circumscribed circles for an $n$ sided regular polygon of side $a$, is (2002)
+\begin{enumerate}
+\item $\frac{a}{4}\cot\sbrak{\frac{\pi}{2n}}$
+\item $a\cot\sbrak{\frac{\pi}{n}}$
+\item $\frac{a}{4}\cot\sbrak{\frac{\pi}{2n}}$
+\item $a\cot\sbrak{\frac{\pi}{n}}$
+\end{enumerate}
+\item In a triangle ABC, medians AD and BE are drawn. If AD=4,$\angle DAB=\frac{\pi}{6}$ and $\angle ABE=\frac{\pi}{3}$, then the area of the $\triangle ABC$ is (2003)
+\begin{enumerate}
+\item $\frac{64}{3}$
+\item $\frac{8}{3}$
+\item $\frac{16}{3}$
+\item $\frac{32}{\sqrt[3]{3}}$
+\end{enumerate}
+\item If in a $\triangle ABC$ $a\cos^2\sbrak{\frac{C}{2}}+c\cos^2\sbrak{\frac{A}{2}}=\frac{3b}{2}$ then the sides a,b and c (2003)
+\begin{enumerate}
+\item satisfy a+b=c
+\item are in A.P
+\item are in G.P
+\item are in H.P
+\end{enumerate}
+\item The sides of a triangle are $\sin \alpha, \cos \alpha$ and $\sqrt{1+\sin\alpha\cos \alpha}$ for some $0<\alpha<\frac{\pi}{2}$ Then the greatest angle of the triangle is (2004)
+\begin{enumerate}
+\item $150^\circ$
+\item $90^\circ$
+\item $120^\circ$
+\item $60^\circ$
+\end{enumerate}
+\item A person standing on the bank of a river observes that the angle of elevation of the top of a tree on the opposite bank of the river is $60^\circ$ and when he retires 40 meters away from the tree the angle of elevation becomes $30^\circ$. The breadth of the river is (2004)
+\begin{enumerate}
+\item 60 m
+\item 30 m
+\item 40 m
+\item 20 m
+\end{enumerate}
+\item In a triangle ABC, let $C=\frac{\pi}{2}$. If r is the in radius and R is the circumradius of the triangle ABC, then $2(r+R)$ equals (2005) 
+\begin{enumerate}
+\item b+c
+\item a+b
+\item a+b+c
+\item c+a
+\end{enumerate}
+\item If in a $\triangle ABC$, the altitudes from the vertices A, B, C on opposite sides are in H.R then $\sin A,\sin B,\sin C$ are in (2005)
+\begin{enumerate}
+\item G.P
+\item A.P
+\item G.P-A.P
+\item H.P
+\end{enumerate}
+\item  A tower stands at the centre of a circular park. A and B are two points on the boundary of the park such that AB(=a) subtends an angle of $60^\circ$ at the foot of the tower, and the angle of elevation of the top of the tower from A or B is $30^\circ$. The height of the tower is (2007)
+\begin{enumerate}
+\item $\frac{a}{\sqrt{3}}$
+\item $a\sqrt{3}$
+\item $\frac{2a}{\sqrt{3}}$
+\item $2a\sqrt{3}$
+\end{enumerate}
+\item AB is a vertical pole with B at the ground level and A at the top. A man finds that the angle of elevation of the point A from a certain point C on the ground is $60^\circ$. He moves away from the pole along the line BC to a point D such that CD=7m. From D the angle of elevation of the point A is $45^\circ$. Then the height of the pole is (2008)
+\begin{enumerate}
+\item $\frac{\sqrt[7]{3}}{2}\frac{1}{\sqrt{3}-1}$m
+\item $\frac{\sqrt[7]{3}}{2}(\sqrt{3}+1)$m
+\item $\frac{\sqrt[7]{3}}{2}(\sqrt{3}-1)$m
+\item $\frac{\sqrt[7]{3}}{2}\frac{1}{\sqrt{3}+1}$m
+\end{enumerate}
+\item For a regular polygon, let r and R be the radii of the inscribed and the circumscribed circles. A false statement among the following is (2010)
+\begin{enumerate}
+\item There is a regular polygon with $\frac{r}{R}=\frac{1}{\sqrt{2}}$
+\item There is a regular polygon with $\frac{r}{R}=\frac{2}{3}$
+\item There is a regular polygon with $\frac{r}{R}=\frac{\sqrt{3}}{2}$
+\item There is a regular polygon with $\frac{r}{R}=\frac{1}{2}$
+\end{enumerate}
+\item A bird is sitting on the top ofa vertical pole 20m high and its elevation from a point O on the ground is $45^\circ$. It flies off horizontally straight away from the point O. After one second the elevation of the bird from O is reduced to $30^\circ$. Then the speed (in m/s) of the bird is (2014)
+\begin{enumerate}
+\item $20\sqrt{2}$
+\item $20(\sqrt{3}-1)$
+\item $40(\sqrt{2}-1)$
+\item $40(\sqrt{3}-\sqrt{2})$
+\end{enumerate}
+\item If the angles of elevation of the top of a tower from three collinear points A, B and C, on a line leading to the foot of the tower, are $30^\circ, 45^\circ$ and $60^\circ$ respectively, then the ratio, AB:BC, is:  (2015)
+\begin{enumerate}
+\item $1:\sqrt{3}$
+\item $2:3$
+\item $\sqrt{3}:1$
+\item $\sqrt{3}:\sqrt{2}$
+\end{enumerate}
+\item Let a vertical tower AB have its end A on the level ground. Let C be the mid-point of AB and P be a point on the ground such that AP=2AB. If $\angle BPC=\beta$, then $\tan \beta$ is equal to  (2017)
+\begin{enumerate}
+\item $\frac{4}{9}$
+\item $\frac{6}{7}$
+\item $\frac{1}{4}$
+\item $\frac{2}{9}$ 
+\end{enumerate}
+\item  PQR is a triangular park with PQ=PR=200m. A T.V. tower stands at the mid-point of QR. If the angles of elevation ofithe top of the tower at P, Q and R are respectively $45^\circ,30^\circ$ and $30^\circ$, then the height of the tower (in m) is: (2018)
+\begin{enumerate}
+\item 50
+\item $100\sqrt{3}$
+\item $50\sqrt{2}$
+\item 100
+\end{enumerate}
+
+\end{enumerate}
+\end{document}
